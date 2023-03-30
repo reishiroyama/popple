@@ -1,3 +1,3 @@
 # popple
 
-Readme 
+The Popple Project
