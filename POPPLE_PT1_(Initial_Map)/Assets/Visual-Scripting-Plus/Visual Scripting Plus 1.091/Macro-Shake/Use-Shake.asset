@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Use-Shake
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":28.60248,"y":-39.18244},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"_","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"__","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"Object","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":false,"$type":"System.Boolean"},"_type":"System.Boolean","key":"is
+      2D Game","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":0.2,"$type":"System.Single"},"_type":"System.Single","key":"Magnitude","label":null,"summary":"Distance
+      which Camera can move among","hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":0.02,"$type":"System.Single"},"_type":"System.Single","key":"Gap
+      Time","label":null,"summary":"Time between shakes","hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":1.0,"$type":"System.Single"},"_type":"System.Single","key":"Duration","label":null,"summary":"Time
+      that Screen Shake occurs","hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":false,"$type":"System.Boolean"},"_type":"System.Boolean","key":"Reducing
+      Magnitude","label":null,"summary":".False = Constant Magnitude\n.True = Reducing
+      Magnitude\n","hideLabel":false}],"valueOutputDefinitions":[],"title":"Shake
+      - Start Screen Shake","summary":null,"pan":{"x":94.0,"y":200.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-358.0,"y":-57.0},"guid":"401672cd-e04f-4c8e-aef9-8bd81f4a195b","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"27"},{"defaultValues":{},"position":{"x":400.0,"y":-55.0},"guid":"d501940a-13d4-4cf6-a0d1-1a943ae85c30","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"29"},{"argumentCount":5,"defaultValues":{"name":{"$content":"Shake-Start","$type":"System.String"},"target":null},"position":{"x":59.0,"y":-75.0},"guid":"6d5f04a2-cc65-4a39-99d6-352e808550e0","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"31"},{"sourceUnit":{"$ref":"27"},"sourceKey":"_","destinationUnit":{"$ref":"31"},"destinationKey":"enter","guid":"0f2bcd83-5a7a-428e-85c8-dce3fe57ccf3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"31"},"sourceKey":"exit","destinationUnit":{"$ref":"29"},"destinationKey":"__","guid":"fecde036-c39e-40cb-beb7-8eed8ab9e1fc","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"27"},"sourceKey":"Object","destinationUnit":{"$ref":"31"},"destinationKey":"target","guid":"7719a4f0-015b-4f18-8636-5d1bfae7f4b8","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"27"},"sourceKey":"is
+      2D Game","destinationUnit":{"$ref":"31"},"destinationKey":"argument_0","guid":"728aa952-5c5f-43a7-8c75-4529b7c6ce95","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"27"},"sourceKey":"Magnitude","destinationUnit":{"$ref":"31"},"destinationKey":"argument_1","guid":"4e41853d-359a-4250-9830-66ace6080bd8","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"27"},"sourceKey":"Gap
+      Time","destinationUnit":{"$ref":"31"},"destinationKey":"argument_2","guid":"68307e9c-c102-47b7-b92b-e21dcf53db8a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"27"},"sourceKey":"Duration","destinationUnit":{"$ref":"31"},"destinationKey":"argument_3","guid":"d740a559-0167-4b0a-9527-e61994bef4a9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"27"},"sourceKey":"Reducing
+      Magnitude","destinationUnit":{"$ref":"31"},"destinationKey":"argument_4","guid":"84e8d133-3cfd-4cab-9511-841340575592","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}},"defaultValues":{"is
+      2D Game":{"$content":false,"$type":"System.Boolean"},"Magnitude":{"$content":0.2,"$type":"System.Single"},"Gap
+      Time":{"$content":0.02,"$type":"System.Single"},"Duration":{"$content":1.0,"$type":"System.Single"},"Reducing
+      Magnitude":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-208.0,"y":-345.0},"guid":"05226cae-f0dd-4081-a336-a820d7bd8607","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"chainable":false,"member":{"name":"Find","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%name":{"$content":"Main
+      Camera","$type":"System.String"}},"position":{"x":-206.0,"y":-129.0},"guid":"7f3cd05a-91e3-4c3a-babd-4ec1688bd507","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"42"},{"sourceUnit":{"$ref":"42"},"sourceKey":"result","destinationUnit":{"$ref":"9"},"destinationKey":"Object","guid":"618c6952-ce04-4a93-af22-c4ede3b289c1","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-478.0,"yMin":-481.0,"xMax":243.0,"yMax":122.0},"label":"Screen
+      Shake","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"2a985512-760c-4a68-9e13-4ad89de5ba6b","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-480.0,"yMin":239.0,"xMax":243.0,"yMax":303.0},"label":"----
+      END Events to Use ----","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"86448548-4d4f-4a91-93c2-54f4090f1b9d","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-480.0,"yMin":-598.0,"xMax":243.0,"yMax":-534.0},"label":"----
+      Events to Use ----","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"534e91de-a567-4db6-95d0-d30f32569e2e","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-478.0,"yMin":477.0,"xMax":241.0,"yMax":541.0},"label":"Note
+      : Not use on Canvas UI , Camera doesn''t work on UI ","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"dee6a2dc-e025-415a-9eaa-ad6779a58875","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-1319.0,"yMin":-477.0,"xMax":-837.0,"yMax":-413.0},"label":"Screen
+      Shake","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"b2957588-73c6-4cb6-897d-c0a0aefc6750","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

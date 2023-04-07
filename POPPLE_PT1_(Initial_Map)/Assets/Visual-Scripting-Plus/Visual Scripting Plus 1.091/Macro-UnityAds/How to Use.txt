@@ -1,0 +1,3 @@
+1. Must Install plugin Advertisement version 4.2.1 or newer in Package Manager first
+2. Unzip the file Macro-UnityAds.zip
+3. Use as other Macro. You can watch Tutorial video on my Youtube Channel : Visual Scripting Plus
