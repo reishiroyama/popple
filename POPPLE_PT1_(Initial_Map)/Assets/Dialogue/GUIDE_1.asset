@@ -545,7 +545,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 4
+        destinationConversationID: 4
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5056,12 +5062,6 @@ MonoBehaviour:
         destinationDialogueID: 29
         isConnector: 0
         priority: 2
-      - originConversationID: 4
-        originDialogueID: 23
-        destinationConversationID: 4
-        destinationDialogueID: 40
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5124,8 +5124,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 190
-        y: 378
+        x: 353.63644
+        y: 375.79984
         width: 160
         height: 30
     - id: 25
@@ -5172,7 +5172,7 @@ MonoBehaviour:
         destinationDialogueID: 27
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Coins") == "active"
+      conditionsString: 
       userScript: 'SetQuestState("Coins", "active");
 
         ShowAlert("Ghost aked
@@ -5182,8 +5182,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 188.73419
-        y: 432
+        x: 352.37064
+        y: 430.86365
         width: 160
         height: 30
     - id: 27
@@ -5231,8 +5231,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 188.75
-        y: 486
+        x: 352.38644
+        y: 484.86374
         width: 160
         height: 30
     - id: 29
@@ -5292,8 +5292,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 367.86386
-        y: 372.64005
+        x: 615.59125
+        y: 318.09454
         width: 160
         height: 30
     - id: 33
@@ -5347,8 +5347,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 363.7975
-        y: 540
+        x: 611.52484
+        y: 485.45465
         width: 160
         height: 30
     - id: 34
@@ -5403,8 +5403,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 363.7975
-        y: 594
+        x: 611.52484
+        y: 539.4546
         width: 160
         height: 30
     - id: 35
@@ -5459,8 +5459,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 363.7975
-        y: 648
+        x: 611.52484
+        y: 593.4546
         width: 160
         height: 30
     - id: 36
@@ -5508,8 +5508,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 363.7975
-        y: 702
+        x: 611.52484
+        y: 647.4546
         width: 160
         height: 30
     - id: 37
@@ -5563,8 +5563,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 360
-        y: 432
+        x: 607.72736
+        y: 377.4545
         width: 160
         height: 30
     - id: 38
@@ -5612,8 +5612,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 530
-        y: 432
+        x: 793.6364
+        y: 378.59085
         width: 160
         height: 30
     - id: 39
@@ -5667,68 +5667,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 363.7975
-        y: 486
-        width: 160
-        height: 30
-    - id: 40
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Thank you!
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 4
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 4
-        originDialogueID: 40
-        destinationConversationID: 4
-        destinationDialogueID: 33
-        isConnector: 0
-        priority: 2
-      conditionsString: CurrentQuestState("Coins") == "success"
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 551.13934
-        y: 371.67084
+        x: 611.52484
+        y: 431.45456
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 34.56604}
-    canvasZoom: 0.9399997
+    canvasScrollPosition: {x: 55.208153, y: 99.612076}
+    canvasZoom: 0.9399995
   - id: 5
     fields:
     - title: Title
