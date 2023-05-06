@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 79e59d1446b851149bb066aaf7ee8ff4
+guid: e0baf895ce1f8564f906fb14ff95a8bf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: new tileset1_0
+      name: Hearth_Preview-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab1d390e08a945d45b367324dc5ecbdf
-      internalID: -1687810626
+      spriteID: fa8a376e42b875641904fddda20dbdb2
+      internalID: 717977640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new tileset1_1
+      name: Hearth_Preview-Sheet_1
       rect:
         serializedVersion: 2
         x: 24
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 765d1a7175a2c9446b000d57b4d0e27f
-      internalID: 654403721
+      spriteID: 4ec8198b5f885cc438f155dedc2a7c9f
+      internalID: 1839434715
       vertices: []
       indices: 
       edges: []
@@ -169,8 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      new tileset1_0: -1687810626
-      new tileset1_1: 654403721
+      Hearth_Preview-Sheet_0: 717977640
+      Hearth_Preview-Sheet_1: 1839434715
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
