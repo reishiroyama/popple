@@ -5155,7 +5155,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(coins,true)
         type: 0
         typeString: 
       conversationID: 4
@@ -5183,7 +5183,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 352.37064
-        y: 430.86365
+        y: 429.7998
         width: 160
         height: 30
     - id: 27
