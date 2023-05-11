@@ -5155,7 +5155,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetActive(coins,true)
+        value: SetActive(Coins,true)
         type: 0
         typeString: 
       conversationID: 4
@@ -5182,7 +5182,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 352.37064
+        x: 353.43448
         y: 429.7998
         width: 160
         height: 30
@@ -5660,14 +5660,14 @@ MonoBehaviour:
         destinationDialogueID: 33
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Coins") == "success"
       userScript: SetQuestState("Coins", "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 611.52484
+        x: 612.5887
         y: 431.45456
         width: 160
         height: 30
