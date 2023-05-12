@@ -5155,7 +5155,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetActive(Coins,true)
+        value: SetActive(coins,true)
         type: 0
         typeString: 
       conversationID: 4
@@ -5292,7 +5292,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 615.59125
+        x: 609.59125
         y: 318.09454
         width: 160
         height: 30
@@ -5557,7 +5557,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: Variable["Coins.NumCollected"] >= 3
-      userScript: 
+      userScript: SetQuestState("Coins", "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5661,19 +5661,19 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: CurrentQuestState("Coins") == "success"
-      userScript: SetQuestState("Coins", "success")
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 612.5887
+        x: 611.5887
         y: 431.45456
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 55.208153, y: 99.612076}
-    canvasZoom: 0.9399995
+    canvasScrollPosition: {x: 320.25854, y: 119.111084}
+    canvasZoom: 0.99999946
   - id: 5
     fields:
     - title: Title
