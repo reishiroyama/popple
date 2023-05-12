@@ -175,9 +175,13 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 1
-      value: '[var=Coins.NumCollected/3 Collected'
+      value: '[var=Coins.NumCollected]/3 Collected'
       type: 0
       typeString: 
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
   - id: 2
     fields:
     - title: Name
@@ -5125,7 +5129,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 353.63644
-        y: 375.79984
+        y: 374.76892
         width: 160
         height: 30
     - id: 25
@@ -5175,7 +5179,7 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'SetQuestState("Coins", "active");
 
-        ShowAlert("Ghost aked
+        ShowAlert("Ghost asked
         me to collect the coins")'
       onExecute:
         m_PersistentCalls:
@@ -5605,7 +5609,7 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: 
+      conditionsString: Variable["Coins.NumCollected"] < 3
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -5672,8 +5676,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 320.25854, y: 119.111084}
-    canvasZoom: 0.99999946
+    canvasScrollPosition: {x: 334.4965, y: 117.84083}
+    canvasZoom: 0.9699995
   - id: 5
     fields:
     - title: Title

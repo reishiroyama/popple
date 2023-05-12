@@ -3634,6 +3634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275856742}
   - component: {fileID: 275856743}
+  - component: {fileID: 275856744}
   m_Layer: 5
   m_Name: Quest Tracker
   m_TagString: Untagged
@@ -3683,6 +3684,14 @@ MonoBehaviour:
   showCompletedEntryText: 0
   questDescriptionSource: 1
   visibleOnStart: 1
+--- !u!222 &275856744
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275856741}
+  m_CullTransparentMesh: 1
 --- !u!1 &276050261
 GameObject:
   m_ObjectHideFlags: 0
@@ -13763,8 +13772,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1430.547, y: 122.68732}
-  m_SizeDelta: {x: 256, y: 329.21997}
+  m_AnchoredPosition: {x: 1320, y: -388}
+  m_SizeDelta: {x: 178.0916, y: -25.6958}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &579223054
 MonoBehaviour:
@@ -21979,6 +21988,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: debugLevel
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: initialDatabase
       value: 
       objectReference: {fileID: 11400000, guid: e5e437b5c7c20e94b95b3e7010727603, type: 2}
@@ -21988,7 +22001,7 @@ PrefabInstance:
       objectReference: {fileID: 829046927}
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: displaySettings.alertSettings.minAlertSeconds
-      value: 100000000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: displaySettings.subtitleSettings.continueButton
@@ -51120,7 +51133,7 @@ PrefabInstance:
     - target: {fileID: 5375868785211015350, guid: 867a7e1d85aa50649abfce6f739b7e78, type: 3}
       propertyPath: firstSelected
       value: 
-      objectReference: {fileID: 1672937256}
+      objectReference: {fileID: 0}
     - target: {fileID: 5375868785211015350, guid: 867a7e1d85aa50649abfce6f739b7e78, type: 3}
       propertyPath: hideAnimationTrigger
       value: Show
@@ -51132,6 +51145,10 @@ PrefabInstance:
     - target: {fileID: 5375868785211015350, guid: 867a7e1d85aa50649abfce6f739b7e78, type: 3}
       propertyPath: showAnimationTrigger
       value: Show
+      objectReference: {fileID: 0}
+    - target: {fileID: 5375868785211015350, guid: 867a7e1d85aa50649abfce6f739b7e78, type: 3}
+      propertyPath: selectPreviousOnDisable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5375868785211015351, guid: 867a7e1d85aa50649abfce6f739b7e78, type: 3}
       propertyPath: m_AnchorMin.y
