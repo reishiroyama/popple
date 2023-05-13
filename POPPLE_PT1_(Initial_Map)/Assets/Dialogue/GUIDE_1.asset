@@ -751,7 +751,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Talk about flowers
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -807,7 +807,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Talk about the weather
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -1362,7 +1362,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Ask to go elsewhere
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -1417,7 +1417,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Ask to go inside
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -1903,7 +1903,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 706.05273
+        x: 708.5844
         y: 891.5791
         width: 160
         height: 30
@@ -2764,7 +2764,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Listen
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -4693,8 +4693,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 473.71814, y: 2339.226}
-    canvasZoom: 0.93999887
+    canvasScrollPosition: {x: 303.6125, y: 1362.3661}
+    canvasZoom: 0.8499989
   - id: 4
     fields:
     - title: Title
@@ -7350,7 +7350,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Find the Teddy Bear
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -7407,7 +7407,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Ask if it's that important
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -7718,8 +7718,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 1481.7507}
-    canvasZoom: 0.9399996
+    canvasScrollPosition: {x: 0, y: 1080.1079}
+    canvasZoom: 0.7299998
   - id: 6
     fields:
     - title: Title
