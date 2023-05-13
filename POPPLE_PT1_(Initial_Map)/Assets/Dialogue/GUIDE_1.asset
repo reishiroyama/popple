@@ -5543,7 +5543,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(Ghost Border,false)
         type: 0
         typeString: 
       conversationID: 4
@@ -5676,8 +5676,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 334.4965, y: 117.84083}
-    canvasZoom: 0.9699995
+    canvasScrollPosition: {x: 209.52658, y: 121.1256}
+    canvasZoom: 0.8799996
   - id: 5
     fields:
     - title: Title
