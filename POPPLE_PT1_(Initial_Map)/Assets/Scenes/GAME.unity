@@ -15106,6 +15106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: char_arriety_0
       objectReference: {fileID: 0}
+    - target: {fileID: 8723093126338959494, guid: 35a38a348b2781b4a95507459dcb2476, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35a38a348b2781b4a95507459dcb2476, type: 3}
 --- !u!4 &800033349 stripped
@@ -18868,10 +18872,10 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b2b7bcb57c3b130458632b403c3246ff, type: 2}
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!1 &993315103
 GameObject:
@@ -26488,7 +26492,7 @@ MonoBehaviour:
     barkUI: {fileID: 0}
     barkUIOffset: {x: 0, y: 2, z: 0}
   standardDialogueUISettings:
-    subtitlePanelNumber: 2
+    subtitlePanelNumber: 0
     customSubtitlePanel: {fileID: 660977502}
     customSubtitlePanelOffset: {x: 0, y: 0, z: 0}
     menuPanelNumber: 0
@@ -28260,6 +28264,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4153658218170118358, guid: 27eed171bd179a5428bda4ed9d047a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5415136078057624418, guid: 27eed171bd179a5428bda4ed9d047a8e, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -28271,6 +28279,10 @@ PrefabInstance:
     - target: {fileID: 5662912081934299999, guid: 27eed171bd179a5428bda4ed9d047a8e, type: 3}
       propertyPath: m_Name
       value: char_exion_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5662912081934299999, guid: 27eed171bd179a5428bda4ed9d047a8e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27eed171bd179a5428bda4ed9d047a8e, type: 3}
@@ -28364,7 +28376,7 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Exion
-  conversationConversant: {fileID: 0}
+  conversationConversant: {fileID: 2063584905}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
   startConversationEntryTitle: 
@@ -28472,7 +28484,7 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Exion
-  conversationConversant: {fileID: 0}
+  conversationConversant: {fileID: 2063584905}
   conversationActor: {fileID: 0}
   startConversationEntryID: 19
   startConversationEntryTitle: 
@@ -30102,7 +30114,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1688868787}
-  - component: {fileID: 1688868788}
   - component: {fileID: 1688868789}
   m_Layer: 7
   m_Name: NPC
@@ -30126,82 +30137,6 @@ Transform:
   m_Father: {fileID: 1250837134}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1688868788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688868786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: 2048
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags:
-    - Player
-    acceptedGameObjects:
-    - {fileID: 2063584893}
-    - {fileID: 1688868786}
-    luaWizardIndex: -1
-    lastEvaluationValue: 0
-  setQuestState: 1
-  questName: Coins
-  questState: 1
-  setQuestEntryState: 0
-  questEntryNumber: 1
-  questEntryState: 0
-  setAnotherQuestEntryState: 0
-  anotherQuestEntryNumber: 1
-  anotherQuestEntryState: 0
-  luaCode: 
-  sequence: 
-  sequenceSpeaker: {fileID: 0}
-  sequenceListener: {fileID: 0}
-  waitOneFrameOnStartOrEnable: 1
-  alertMessage: 
-  textTable: {fileID: 0}
-  alertDuration: 0
-  sendMessages: []
-  barkSource: 0
-  barkConversation: 
-  barkText: 
-  barkTextSequence: 
-  barker: {fileID: 0}
-  barkTarget: {fileID: 0}
-  barkOrder: 0
-  allowBarksDuringConversations: 0
-  skipBarkIfNoValidEntries: 0
-  cacheBarkLines: 0
-  conversation: Ghost Quest
-  conversationConversant: {fileID: 2063584905}
-  conversationActor: {fileID: 0}
-  startConversationEntryID: -1
-  startConversationEntryTitle: 
-  exclusive: 0
-  replace: 0
-  skipIfNoValidEntries: 0
-  preventRestartOnSameFrameEnded: 0
-  stopConversationOnTriggerExit: 0
-  stopConversationIfTooFar: 0
-  maxConversationDistance: 5
-  monitorConversationDistanceFrequency: 1
-  showCursorDuringConversation: 0
-  pauseGameDuringConversation: 0
-  setActiveActions: []
-  setEnabledActions: []
-  setAnimatorStateActions: []
-  onExecute:
-    m_PersistentCalls:
-      m_Calls: []
-  useConversationTitlePicker: 1
-  useBarkTitlePicker: 1
-  useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: e5e437b5c7c20e94b95b3e7010727603, type: 2}
 --- !u!61 &1688868789
 BoxCollider2D:
   m_ObjectHideFlags: 0
