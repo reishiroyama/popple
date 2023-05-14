@@ -1362,7 +1362,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Go elsewhere
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -1394,7 +1394,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 706.31586
+        x: 705.1394
         y: 613.6843
         width: 160
         height: 30
@@ -1417,7 +1417,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Go inside
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -1450,7 +1450,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 536.31586
-        y: 613.6843
+        y: 612.5079
         width: 160
         height: 30
     - id: 14
@@ -1858,7 +1858,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 533.00006
+        x: 531.7342
         y: 891.7214
         width: 160
         height: 30
@@ -1930,7 +1930,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Ready to go?
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -1985,7 +1985,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: Do you like the flowers
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -4471,8 +4471,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 200.91031, y: 1396.1321}
-    canvasZoom: 0.8799987
+    canvasScrollPosition: {x: 0, y: 1334.169}
+    canvasZoom: 0.6999988
   - id: 4
     fields:
     - title: Title
