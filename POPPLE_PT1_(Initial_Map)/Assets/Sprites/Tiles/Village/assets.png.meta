@@ -2346,9 +2346,9 @@ TextureImporter:
       name: assets_106
       rect:
         serializedVersion: 2
-        x: 240
+        x: 252
         y: 600
-        width: 24
+        width: 10
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
