@@ -129,7 +129,7 @@ MonoBehaviour:
     - title: Name
       value: Coins
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Pictures
       value: '[]'
       type: 3
@@ -137,19 +137,19 @@ MonoBehaviour:
     - title: Description
       value: Ghost asked me to collect the coins
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Success Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Failure Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: State
       value: unassigned
       type: 0
-      typeString: 
+      typeString: CustomFieldType_QuestState
     - title: Is Item
       value: False
       type: 2
@@ -157,7 +157,7 @@ MonoBehaviour:
     - title: Display Name
       value: Collect the Coins
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Trackable
       value: True
       type: 2
@@ -173,11 +173,11 @@ MonoBehaviour:
     - title: Entry 1 State
       value: active
       type: 0
-      typeString: 
+      typeString: CustomFieldType_QuestState
     - title: Entry 1
       value: '[var=Coins.NumCollected]/3 Collected'
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Track
       value: True
       type: 2
@@ -247,7 +247,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Last request
+      value: Find the candle for Exion
       type: 0
       typeString: 
     - title: Success Description
@@ -812,7 +812,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 27.317062
+        x: 28.536575
         y: 104
         width: 160
         height: 30
@@ -1993,7 +1993,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 374.78714
+        x: 359.25314
         y: 795.1064
         width: 160
         height: 30
@@ -2052,14 +2052,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: Variable["Flowers.NumCollected"] == 5
-      userScript: 
+      userScript: SetQuestState("Flowers", "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 275
-        y: 864
+        x: 281.79614
+        y: 862.0583
         width: 160
         height: 30
     - id: 21
@@ -4479,7 +4479,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(candle,true)
         type: 0
         typeString: 
       conversationID: 3
@@ -4489,13 +4489,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 68
-        destinationConversationID: 3
-        destinationDialogueID: 69
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: SetQuestState("Candle", "active")
       onExecute:
@@ -4553,14 +4547,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestState("Candle", "success")
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2618.4998
+        x: 735.46234
+        y: 2461.0574
         width: 160
         height: 30
     - id: 70
@@ -4615,8 +4609,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2672.4998
+        x: 731.57886
+        y: 2516.9458
         width: 160
         height: 30
     - id: 71
@@ -4646,7 +4640,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(Cemetery Border,false)
         type: 0
         typeString: 
       conversationID: 3
@@ -4664,8 +4658,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.68298
-        y: 2718.5452
+        x: 729.761
+        y: 2562.9912
         width: 160
         height: 30
     - id: 72
@@ -5001,9 +4995,174 @@ MonoBehaviour:
         y: 796.97864
         width: 160
         height: 30
+    - id: 78
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Did you find the candle?
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 78
+        destinationConversationID: 3
+        destinationDialogueID: 79
+        isConnector: 0
+        priority: 2
+      - originConversationID: 3
+        originDialogueID: 78
+        destinationConversationID: 3
+        destinationDialogueID: 80
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 732.49634
+        y: 2363.666
+        width: 160
+        height: 30
+    - id: 79
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Here you go.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 79
+        destinationConversationID: 3
+        destinationDialogueID: 69
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["Candle"] == 1
+      userScript: SetQuestState("Candle", "success")
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 732.49634
+        y: 2412.6692
+        width: 160
+        height: 30
+    - id: 80
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Not yet.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 932.49664
+        y: 2411.7517
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 81.539734, y: 440.19025}
-    canvasZoom: 0.8499986
+    canvasScrollPosition: {x: 435.47766, y: 2209.6611}
+    canvasZoom: 1.0299985
   - id: 4
     fields:
     - title: Title
@@ -5987,7 +6146,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 233.94882, y: 225.0001}
+    canvasScrollPosition: {x: 270.31247, y: 180.6819}
     canvasZoom: 0.8799996
   - id: 5
     fields:
