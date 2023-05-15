@@ -123,10 +123,10 @@ TextureImporter:
         x: 0
         y: 240
         width: 64
-        height: 62
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 2, z: 2, w: 0}
+      border: {x: 2, y: 2, z: 2, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1859,6 +1859,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Base-01_83
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 1, z: 2, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05df485d1001b8140ad838ff23d02494
+      internalID: -145446037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1952,6 +1973,7 @@ TextureImporter:
       Base-01_80: -1138312937
       Base-01_81: -75594475
       Base-01_82: -1997457821
+      Base-01_83: -145446037
       Base-01_9: -136489622
   spritePackingTag: 
   pSDRemoveMatte: 0
