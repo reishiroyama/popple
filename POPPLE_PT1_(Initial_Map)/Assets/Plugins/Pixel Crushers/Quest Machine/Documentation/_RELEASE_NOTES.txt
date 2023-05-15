@@ -1,0 +1,61 @@
+﻿/*
+Quest Machine Release Notes
+
+
+Version 1.0.4:
+- Improved: Save System now uses nonallocating (no GC) methods when loading.
+- Fixed: Quests that listen for messages now accept any message parameter when parameter conditions is blank.
+- Fixed: Button content appeared as icon content.
+- Emerald AI: Added support.
+- ORK Framework: Added support.
+
+
+Version 1.0.3:
+- Added: Compass Navigator Pro support.
+- Fixed: Setting node from active to inactive to active didn't restart condition checking.
+- Fixed: Node deletion didn't delete subassets. Opening quest in editor window will clean up unused subassets. Also added gear menu Debug > Delete Unused Subassets.
+
+
+Version 1.0.2:
+- Updated for Unity 2017.3 support.
+- Changed: (PlayMaker) Actions that used FsmGameObject now use FsmOwnerDefault; will need to be reassigned.
+- Changed: QuestGeneratorEntity Dialogue For Rewards format changed.
+- Added: Step-by-step quest generator tutorial to manual.
+- Added: QuestMachine.GetQuestCounter method.
+- Added: QuestControl.SendToMessageSystem and Message Events format Message:Param:[Value] to pass values.
+- Added: QuestGiver.StartDialogueWithPlayer; QuestGiver.StartDialogue now also finds player by tag if no player is specified.
+- Added: QuestGiver.GiveQuestToQuester and GiveAllQuestsToQuester methods.
+- Improved: Quest generator can now choose smaller target amounts than the total number of targets known.
+- Fixed: Counter conditions now also check counter's value as soon as condition becomes active, not just when counter value changes.
+- Fixed: Counter condition to check that value is less than goal wasn't registering true.
+- Fixed: Spawner didn't stop spawning at max count.
+- Fixed: Abandoned repeatable quests weren't able to be picked up again.
+- Fixed: Tags for min & max counter values & reference window.
+- Fixed: Alert UI and HUD no longer steal Unity UI focus.
+- Fixed: UIPanel.OnVisible now gracefully handles missing EventSystem.
+- Fixed: Loading a saved game no longer re-executes quests' main actions.
+- Fixed: Journal no longer shows quests whose state is WaitingToStart.
+- Fixed: NPCs no longer offer a generated quest if the player already has a generated quest for the same action and target.
+- Fixed: Demo player is now tagged Player.
+- Improved: SaveSystem can specify frames to wait before applying saved data.
+- Improved: SaveSystem can encrypt saved games in PlayerPrefs.
+- Fixed: TextTable editor now updates dropdown in Fields section properly when renaming a language.
+- Added: Dialogue System support.
+
+
+Version 1.0.1:
+- Changed: Quest Giver optional UI content is now handled differently in inspector.
+- Added: QuestListContainer events, QuestListEvents component.
+- Fixed: Setup issues in Quick Start scene.
+- Fixed: When quests become offerable & active, giver updates indicator UIs properly now.
+- Fixed: Indicator UI prefab - swapped ? and !.
+- Fixed: Using joystick, close button didn't autofocus in dialogue with no quests.
+- Added: DMMap support.
+- Added: Love/Hate support.
+- Added: PlayMaker support.
+- Added: Rewired support.
+
+
+Version 1.0:
+- Initial release.
+*/
