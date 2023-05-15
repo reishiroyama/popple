@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EXION CUTSCENE.unity
     guid: 156d3fdf2e099b849ac599b4b41c58d7
+  - enabled: 1
+    path: Assets/Scenes/ARRIETY CUTSCENE.unity
+    guid: 6034af8d4d049c54f9d70ce444c86cb9
   m_configObjects: {}
