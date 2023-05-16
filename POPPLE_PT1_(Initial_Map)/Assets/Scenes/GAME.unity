@@ -12409,6 +12409,7 @@ GameObject:
   - component: {fileID: 505705679}
   - component: {fileID: 505705678}
   - component: {fileID: 505705677}
+  - component: {fileID: 505705682}
   m_Layer: 0
   m_Name: 'flowers '
   m_TagString: Untagged
@@ -12620,6 +12621,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &505705682
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505705675}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96a928fb6b1649440a37efd2d75388b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &511708928
 GameObject:
   m_ObjectHideFlags: 0
@@ -15942,7 +15964,7 @@ GameObject:
   - component: {fileID: 802041328}
   - component: {fileID: 802041327}
   m_Layer: 0
-  m_Name: food (2)
+  m_Name: An Ice Cream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15956,7 +15978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802041325}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 210.85, y: -6.43, z: 0.03173876}
+  m_LocalPosition: {x: 210.873, y: -6.311, z: 0.03173876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16109,7 +16131,7 @@ Animator:
   m_GameObject: {fileID: 802041325}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d896d771a62add644aae79ab85927527, type: 2}
+  m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -19273,7 +19295,7 @@ GameObject:
   - component: {fileID: 965959588}
   - component: {fileID: 965959587}
   m_Layer: 0
-  m_Name: food (4)
+  m_Name: A Lolipop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19287,7 +19309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965959585}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 226.364, y: -6.339, z: 0.03173876}
+  m_LocalPosition: {x: 226.37, y: -6.279, z: 0.03173876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19441,7 +19463,7 @@ Animator:
   m_GameObject: {fileID: 965959585}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d896d771a62add644aae79ab85927527, type: 2}
+  m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -28819,6 +28841,7 @@ GameObject:
   - component: {fileID: 1263528340}
   - component: {fileID: 1263528339}
   - component: {fileID: 1263528338}
+  - component: {fileID: 1263528343}
   m_Layer: 0
   m_Name: flowers
   m_TagString: Untagged
@@ -29030,6 +29053,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1263528343
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263528336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96a928fb6b1649440a37efd2d75388b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1281692679
 GameObject:
   m_ObjectHideFlags: 0
@@ -29618,6 +29662,7 @@ GameObject:
   - component: {fileID: 1393399546}
   - component: {fileID: 1393399545}
   - component: {fileID: 1393399544}
+  - component: {fileID: 1393399549}
   m_Layer: 0
   m_Name: flowers
   m_TagString: Untagged
@@ -29829,6 +29874,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1393399549
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393399542}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96a928fb6b1649440a37efd2d75388b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1393832787
 GameObject:
   m_ObjectHideFlags: 0
@@ -31978,7 +32044,7 @@ GameObject:
   - component: {fileID: 1587015949}
   - component: {fileID: 1587015948}
   m_Layer: 0
-  m_Name: food
+  m_Name: A Cake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31992,7 +32058,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587015945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 191.856, y: -5.488, z: 0.03173876}
+  m_LocalPosition: {x: 191.868, y: -5.37, z: 0.03173876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32195,9 +32261,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587015945}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d896d771a62add644aae79ab85927527, type: 2}
+  m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -35521,6 +35587,7 @@ GameObject:
   - component: {fileID: 1731916012}
   - component: {fileID: 1731916011}
   - component: {fileID: 1731916010}
+  - component: {fileID: 1731916015}
   m_Layer: 0
   m_Name: flowers
   m_TagString: Untagged
@@ -35732,6 +35799,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1731916015
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731916008}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96a928fb6b1649440a37efd2d75388b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1738786967
 GameObject:
   m_ObjectHideFlags: 0
@@ -52423,7 +52511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1863992901
 Transform:
   m_ObjectHideFlags: 0
@@ -52833,6 +52921,7 @@ GameObject:
   - component: {fileID: 1975692378}
   - component: {fileID: 1975692377}
   - component: {fileID: 1975692376}
+  - component: {fileID: 1975692381}
   m_Layer: 0
   m_Name: 'flowers '
   m_TagString: Untagged
@@ -53044,6 +53133,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1975692381
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975692374}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96a928fb6b1649440a37efd2d75388b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1981224054
 GameObject:
   m_ObjectHideFlags: 0
@@ -53194,7 +53304,7 @@ GameObject:
   - component: {fileID: 1988348649}
   - component: {fileID: 1988348648}
   m_Layer: 0
-  m_Name: food (1)
+  m_Name: A Chocolate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53208,7 +53318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988348646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 199.37, y: -5.401, z: 0.03173876}
+  m_LocalPosition: {x: 199.361, y: -5.335, z: 0.03173876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53361,7 +53471,7 @@ Animator:
   m_GameObject: {fileID: 1988348646}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d896d771a62add644aae79ab85927527, type: 2}
+  m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -53439,7 +53549,7 @@ GameObject:
   - component: {fileID: 1991620820}
   - component: {fileID: 1991620819}
   m_Layer: 0
-  m_Name: food (3)
+  m_Name: A Donut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53453,7 +53563,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991620817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 217.889, y: -6.49, z: 0.03173876}
+  m_LocalPosition: {x: 217.889, y: -6.38, z: 0.03173876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53606,7 +53716,7 @@ Animator:
   m_GameObject: {fileID: 1991620817}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d896d771a62add644aae79ab85927527, type: 2}
+  m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
