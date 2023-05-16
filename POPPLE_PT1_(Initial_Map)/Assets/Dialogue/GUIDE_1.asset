@@ -135,11 +135,11 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Ghost asked me to collect the coins
+      value: Collect Coins
       type: 0
       typeString: CustomFieldType_Text
     - title: Success Description
-      value: 
+      value: Coins Collected
       type: 0
       typeString: CustomFieldType_Text
     - title: Failure Description
@@ -305,7 +305,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Collect food for Arriety
+      value: Collect foods for Arrietty
       type: 0
       typeString: 
     - title: Success Description
@@ -341,7 +341,7 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Entry 1 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 1
@@ -7013,13 +7013,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestEntryState("Food", 1, "active")
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 18.96907
+        x: 20
         y: 810
         width: 160
         height: 30
@@ -7075,7 +7075,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 20
-        y: 865.0309
+        y: 864
         width: 160
         height: 30
     - id: 16
@@ -7122,14 +7122,14 @@ MonoBehaviour:
         destinationDialogueID: 18
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Foods.NumCollected"] == 5
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 22.061852
+        x: 20
         y: 918
         width: 160
         height: 30
@@ -7240,7 +7240,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 20
-        y: 1026.9708
+        y: 1026
         width: 160
         height: 30
     - id: 20
@@ -8188,8 +8188,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 1439.9025}
-    canvasZoom: 1.2099993
+    canvasScrollPosition: {x: 7.3090405, y: 676.216}
+    canvasZoom: 1.0599995
   - id: 6
     fields:
     - title: Title
