@@ -2347,12 +2347,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 252
-        y: 591
+        y: 601
         width: 10
-        height: 24
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 2, z: 1, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -4673,6 +4673,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: assets_217
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 610
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 3, z: 1, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db81b576806b9964b92da09ce3fe3525
+      internalID: 833338672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -4816,6 +4837,7 @@ TextureImporter:
       assets_214: 563096801
       assets_215: 723210808
       assets_216: -1310485806
+      assets_217: 833338672
       assets_22: 2145099423
       assets_23: -1865775072
       assets_24: -414672792
