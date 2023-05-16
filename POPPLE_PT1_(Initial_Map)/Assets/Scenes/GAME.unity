@@ -55939,6 +55939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: poster
       objectReference: {fileID: 0}
+    - target: {fileID: 4120438532876638421, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
 --- !u!1001 &3609019716054396812
