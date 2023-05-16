@@ -16190,7 +16190,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802041325}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
@@ -19356,7 +19356,7 @@ GameObject:
   - component: {fileID: 965959588}
   - component: {fileID: 965959587}
   m_Layer: 0
-  m_Name: A Lolipop
+  m_Name: A Lollipop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52584,7 +52584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1863992901
 Transform:
   m_ObjectHideFlags: 0
@@ -53542,7 +53542,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988348646}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
@@ -53787,7 +53787,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991620817}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
