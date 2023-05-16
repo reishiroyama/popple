@@ -19645,7 +19645,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965959585}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c94f37d298c75784095e516c7e1851d5, type: 2}
   m_CullingMode: 0
@@ -28922,36 +28922,6 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: e5e437b5c7c20e94b95b3e7010727603, type: 2}
---- !u!114 &1250837143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250837124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
---- !u!114 &1250837144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250837124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &1260979513
 GameObject:
   m_ObjectHideFlags: 0
@@ -36039,6 +36009,7 @@ GameObject:
   - component: {fileID: 1738786968}
   - component: {fileID: 1738786970}
   - component: {fileID: 1738786969}
+  - component: {fileID: 1738786971}
   m_Layer: 0
   m_Name: Cemetery Border
   m_TagString: Untagged
@@ -36139,6 +36110,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1738786971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738786967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1746917322
 GameObject:
   m_ObjectHideFlags: 0
@@ -56215,11 +56201,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2564226971156735507, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 233.71307
+      value: 235.49
       objectReference: {fileID: 0}
     - target: {fileID: 2564226971156735507, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.465
+      value: -6.45
       objectReference: {fileID: 0}
     - target: {fileID: 2564226971156735507, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -56256,6 +56242,22 @@ PrefabInstance:
     - target: {fileID: 2726483635852443717, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
       propertyPath: m_Name
       value: poster
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120438532876638421, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9938507
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120438532876638421, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.335885
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120438532876638421, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0151901245
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120438532876638421, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.16794252
       objectReference: {fileID: 0}
     - target: {fileID: 4120438532876638421, guid: 486d9a25133588646bc3d23fdb7bb56b, type: 3}
       propertyPath: m_IsTrigger
