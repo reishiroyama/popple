@@ -135,11 +135,11 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Ghost asked me to collect the coins
+      value: Collect Coins
       type: 0
       typeString: CustomFieldType_Text
     - title: Success Description
-      value: 
+      value: Coins Collected
       type: 0
       typeString: CustomFieldType_Text
     - title: Failure Description
