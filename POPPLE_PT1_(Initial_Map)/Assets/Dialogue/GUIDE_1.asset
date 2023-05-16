@@ -305,7 +305,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Collect foods for Arrietty
+      value: Collect food for Arriety
       type: 0
       typeString: 
     - title: Success Description
@@ -341,7 +341,7 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Entry 1 State
-      value: active
+      value: unassigned
       type: 0
       typeString: 
     - title: Entry 1
@@ -7013,13 +7013,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetQuestEntryState("Food", 1, "active")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 18.96907
         y: 810
         width: 160
         height: 30
@@ -7075,7 +7075,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 20
-        y: 864
+        y: 865.0309
         width: 160
         height: 30
     - id: 16
@@ -7122,14 +7122,14 @@ MonoBehaviour:
         destinationDialogueID: 18
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Foods.NumCollected"] == 5
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 22.061852
         y: 918
         width: 160
         height: 30
@@ -7240,7 +7240,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 20
-        y: 1026
+        y: 1026.9708
         width: 160
         height: 30
     - id: 20
@@ -8188,8 +8188,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 1114.1179}
-    canvasZoom: 0.84999967
+    canvasScrollPosition: {x: 0, y: 1439.9025}
+    canvasZoom: 1.2099993
   - id: 6
     fields:
     - title: Title
