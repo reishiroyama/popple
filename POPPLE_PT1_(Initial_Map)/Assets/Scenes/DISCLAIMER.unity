@@ -1121,6 +1121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeavelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 5692917303514692320, guid: 66f0711c65650ab408efeac972a424be, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6586404244004743227, guid: 66f0711c65650ab408efeac972a424be, type: 3}
       propertyPath: m_RootOrder
       value: 3
