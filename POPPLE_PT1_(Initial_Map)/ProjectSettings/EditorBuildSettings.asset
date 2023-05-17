@@ -5,25 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/DISCLAIMER.unity
+    path: Assets/Scenes/CUTSCENES/DISCLAIMER.unity
     guid: 2dd486ef89e44c7408bc04f432dba211
   - enabled: 1
     path: Assets/Scenes/MAIN MENU.unity
     guid: 3c5ea1b583d7e53428980ec931d34e43
   - enabled: 1
-    path: Assets/Scenes/INTRODUCTION.unity
+    path: Assets/Scenes/CUTSCENES/INTRODUCTION.unity
     guid: a985d109c80764d40965bfdf8c1bc32c
   - enabled: 1
-    path: Assets/Scenes/GAME.unity
+    path: Assets/Scenes/LEVELS/GAME.unity
     guid: af89f655ab407434e803ae80b4b15f35
   - enabled: 1
-    path: Assets/Scenes/EXION CUTSCENE.unity
+    path: Assets/Scenes/CUTSCENES/EXION CUTSCENE.unity
     guid: 156d3fdf2e099b849ac599b4b41c58d7
   - enabled: 1
-    path: Assets/Scenes/ARRIETY CUTSCENE.unity
-    guid: 6034af8d4d049c54f9d70ce444c86cb9
+    path: Assets/Scenes/LEVELS/EXION LEVEL END.unity
+    guid: 26e7ed5a59d39bd47aa3038f58a8379f
+  - enabled: 1
+    path: Assets/Scenes/CUTSCENES/ARRIETY CUTSCENE.unity
+    guid: ee237526b8005ca4ab0da9c97ff846e5
+  - enabled: 1
+    path: Assets/Scenes/LEVELS/ARRIETY LEVEL END.unity
+    guid: 299019e166ac8484fb20e3f1593c1bfa
   m_configObjects: {}
