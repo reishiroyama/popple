@@ -353,27 +353,27 @@ MonoBehaviour:
     - title: Name
       value: Teddy Bear
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Pictures
       value: '[]'
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: 
+      value: Teddy
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Success Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Failure Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: State
       value: unassigned
       type: 0
-      typeString: 
+      typeString: CustomFieldType_QuestState
     - title: Is Item
       value: False
       type: 2
@@ -381,7 +381,7 @@ MonoBehaviour:
     - title: Display Name
       value: Look fo the Teddy Bear
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Trackable
       value: True
       type: 2
@@ -397,11 +397,11 @@ MonoBehaviour:
     - title: Entry 1 State
       value: unassigned
       type: 0
-      typeString: 
+      typeString: CustomFieldType_QuestState
     - title: Entry 1
       value: '[var=teddy]/1'
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
   locations: []
   variables:
   - id: 1
@@ -5220,7 +5220,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 350.06738, y: 2165.223}
+    canvasScrollPosition: {x: 56.066864, y: 618.22205}
     canvasZoom: 0.9999985
   - id: 4
     fields:
@@ -6322,7 +6322,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 54
         width: 160
         height: 30
@@ -6377,7 +6377,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 108
         width: 160
         height: 30
@@ -6432,7 +6432,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 162
         width: 160
         height: 30
@@ -6488,7 +6488,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 216
         width: 160
         height: 30
@@ -6544,7 +6544,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 270
         width: 160
         height: 30
@@ -6599,7 +6599,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 324
         width: 160
         height: 30
@@ -6654,7 +6654,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 378
         width: 160
         height: 30
@@ -6709,7 +6709,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 432
         width: 160
         height: 30
@@ -6765,7 +6765,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 486
         width: 160
         height: 30
@@ -6820,7 +6820,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 540
         width: 160
         height: 30
@@ -6866,7 +6866,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 10
         destinationConversationID: 5
-        destinationDialogueID: 11
+        destinationDialogueID: 44
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -6876,7 +6876,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 350
         y: 594
         width: 160
         height: 30
@@ -6931,8 +6931,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 648
+        x: 350
+        y: 702
         width: 160
         height: 30
     - id: 12
@@ -6986,8 +6986,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 702
+        x: 350
+        y: 756
         width: 160
         height: 30
     - id: 13
@@ -7041,8 +7041,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 756
+        x: 350
+        y: 810
         width: 160
         height: 30
     - id: 14
@@ -7096,8 +7096,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 810
+        x: 350
+        y: 864
         width: 160
         height: 30
     - id: 15
@@ -7151,8 +7151,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 864
+        x: 350
+        y: 918
         width: 160
         height: 30
     - id: 16
@@ -7206,8 +7206,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 918
+        x: 350
+        y: 972
         width: 160
         height: 30
     - id: 18
@@ -7261,8 +7261,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 972
+        x: 350
+        y: 1026
         width: 160
         height: 30
     - id: 19
@@ -7316,8 +7316,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1026
+        x: 350
+        y: 1080
         width: 160
         height: 30
     - id: 20
@@ -7372,8 +7372,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1080
+        x: 350
+        y: 1134
         width: 160
         height: 30
     - id: 21
@@ -7427,8 +7427,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1134
+        x: 350
+        y: 1188
         width: 160
         height: 30
     - id: 22
@@ -7482,8 +7482,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1188
+        x: 350
+        y: 1242
         width: 160
         height: 30
     - id: 23
@@ -7537,8 +7537,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1242
+        x: 350
+        y: 1296
         width: 160
         height: 30
     - id: 24
@@ -7592,8 +7592,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1296
+        x: 350
+        y: 1350
         width: 160
         height: 30
     - id: 25
@@ -7647,8 +7647,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1350
+        x: 350
+        y: 1404
         width: 160
         height: 30
     - id: 26
@@ -7702,8 +7702,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1404
+        x: 350
+        y: 1458
         width: 160
         height: 30
     - id: 27
@@ -7758,8 +7758,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1458
+        x: 350
+        y: 1512
         width: 160
         height: 30
     - id: 28
@@ -7813,8 +7813,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1512
+        x: 350
+        y: 1566
         width: 160
         height: 30
     - id: 29
@@ -7874,8 +7874,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1562
+        x: 348.0358
+        y: 1615.5358
         width: 160
         height: 30
     - id: 30
@@ -7933,7 +7933,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestEntryState("Teddy Bear", 1, "active")
+      userScript: 'SetQuestEntryState("Teddy Bear", 1, "active");
+
+        ShowAlert("Look
+        for Arriety''s Teddy")'
       onExecute:
         m_PersistentCalls:
           m_Calls:
@@ -7951,8 +7954,8 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 1613.1764
+        x: 177.65942
+        y: 1670.8085
         width: 160
         height: 30
     - id: 31
@@ -8006,8 +8009,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 240.01184
-        y: 1613.0066
+        x: 462.766
+        y: 1668.6809
         width: 160
         height: 30
     - id: 32
@@ -8068,8 +8071,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 240.83826
-        y: 1663.0066
+        x: 350
+        y: 1728
         width: 160
         height: 30
     - id: 33
@@ -8125,8 +8128,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 21.176468
-        y: 1661.1736
+        x: 174.54395
+        y: 1733.7942
         width: 160
         height: 30
     - id: 34
@@ -8178,8 +8181,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 21.063828
-        y: 1711.1735
+        x: 171.50833
+        y: 1802.0798
         width: 160
         height: 30
     - id: 36
@@ -8233,8 +8236,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 244.14404
-        y: 1713.0067
+        x: 350
+        y: 1782
         width: 160
         height: 30
     - id: 37
@@ -8284,8 +8287,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 244.14404
-        y: 1763.0067
+        x: 350
+        y: 1836
         width: 160
         height: 30
     - id: 38
@@ -8339,8 +8342,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 353.96243
-        y: 1879.0979
+        x: 698.715
+        y: 1759.8396
         width: 160
         height: 30
     - id: 39
@@ -8394,8 +8397,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 355.84924
-        y: 1933.8151
+        x: 699.7459
+        y: 1809.8396
         width: 160
         height: 30
     - id: 40
@@ -8435,13 +8438,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 5
-        originDialogueID: 40
-        destinationConversationID: 5
-        destinationDialogueID: 42
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: SetQuestEntryState("Teddy Bear", 1, "success")
       onExecute:
@@ -8449,8 +8446,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 355.94965
-        y: 1993.1285
+        x: 699.7459
+        y: 1857.7778
         width: 160
         height: 30
     - id: 42
@@ -8502,13 +8499,68 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 356.89304
-        y: 2043.1852
+        x: 703.9026
+        y: 1934.5815
+        width: 160
+        height: 30
+    - id: 44
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'She must be very anxious, she is isolating herself.  '
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 44
+        destinationConversationID: 5
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 349.99997
+        y: 653.6962
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 1609.8687}
-    canvasZoom: 0.81999964
+    canvasScrollPosition: {x: 177.32397, y: 1442.822}
+    canvasZoom: 0.96999955
   - id: 6
     fields:
     - title: Title
@@ -8590,7 +8642,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 6
@@ -8771,7 +8823,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 40}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 1
   - id: 7
     fields:

@@ -63,6 +63,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EXION LEVEL
       objectReference: {fileID: 0}
+    - target: {fileID: 6435386178389384852, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_Size.x
+      value: 3.5280457
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386178389384852, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.013504028
+      objectReference: {fileID: 0}
     - target: {fileID: 6435386179046022032, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -169,7 +177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435386180030051072, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: trigger
-      value: 8
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 6435386180030051072, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: startConversationEntryID
@@ -186,6 +194,14 @@ PrefabInstance:
     - target: {fileID: 6435386180030051075, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_Offset.x
       value: -0.35902023
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386180030051077, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: barkUISettings.barkUI
+      value: 
+      objectReference: {fileID: 1608008152400855951, guid: 0af1da543cce75d4f814c6f0b2aabff1, type: 3}
+    - target: {fileID: 6435386180030051077, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: barkUISettings.barkUIOffset.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7601742028011575564, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_LocalPosition.x
