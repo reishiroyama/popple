@@ -89,11 +89,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435386179225372715, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6435386179225372715, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6435386179225372715, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_SizeDelta.x
@@ -109,7 +109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435386179225372715, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.881
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6435386179354816966, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_AnchorMax.y
@@ -166,6 +166,26 @@ PrefabInstance:
     - target: {fileID: 6435386179751086335, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386180030051072, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: trigger
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386180030051072, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: startConversationEntryID
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386180030051072, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: condition.questConditions.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386180030051075, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_Size.x
+      value: 2.6785355
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386180030051075, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.35902023
       objectReference: {fileID: 0}
     - target: {fileID: 7601742028011575564, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_LocalPosition.x

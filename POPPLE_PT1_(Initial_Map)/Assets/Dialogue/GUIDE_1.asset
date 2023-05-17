@@ -139,7 +139,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Success Description
-      value: Coins Collected
+      value: Return to Ghost
       type: 0
       typeString: CustomFieldType_Text
     - title: Failure Description
@@ -193,7 +193,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Collect flowers for Exion
+      value: Flowers collected
       type: 0
       typeString: 
     - title: Success Description
@@ -247,7 +247,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Find the candle for Exion
+      value: Candle Collected
       type: 0
       typeString: 
     - title: Success Description
@@ -1865,7 +1865,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestState("Flowers", "active")
+      userScript: 'SetQuestState("Flowers", "active");
+
+        ShowAlert("Collect
+        Flowers for Exion")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4491,7 +4494,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestState("Candle", "active")
+      userScript: 'SetQuestState("Candle", "active");
+
+        ShowAlert("Find a
+        candle for Exion")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4553,8 +4559,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 735.46234
-        y: 2461.0574
+        x: 730.3078
+        y: 2570.336
         width: 160
         height: 30
     - id: 70
@@ -4609,8 +4615,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 731.57886
-        y: 2516.9458
+        x: 726.4243
+        y: 2626.2244
         width: 160
         height: 30
     - id: 71
@@ -4656,14 +4662,14 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: ShowAlert("Explore more")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 729.761
-        y: 2562.9912
+        x: 725.6374
+        y: 2670.2078
         width: 160
         height: 30
     - id: 72
@@ -5101,7 +5107,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 79
         destinationConversationID: 3
-        destinationDialogueID: 69
+        destinationDialogueID: 81
         isConnector: 0
         priority: 2
       conditionsString: Variable["Candle"] == 1
@@ -5164,9 +5170,58 @@ MonoBehaviour:
         y: 2411.7517
         width: 160
         height: 30
+    - id: 81
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Let's go visit my Mom.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: SetActive(Cemetery Border,false)
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: ShowAlert("Go to the cemetery.")
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 734.5582
+        y: 2461.6382
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 402.29324, y: 2174.7097}
-    canvasZoom: 0.9699986
+    canvasScrollPosition: {x: 350.06738, y: 2165.223}
+    canvasZoom: 0.9999985
   - id: 4
     fields:
     - title: Title
@@ -5734,7 +5789,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Did you found the coins?
+        value: Did you find the coins?
         type: 0
         typeString: 
       - title: Sequence
@@ -5768,8 +5823,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 609.59125
-        y: 319.2309
+        x: 615.68884
+        y: 299.7187
         width: 160
         height: 30
     - id: 33
@@ -5966,9 +6021,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Ghost Border,false);
-
-          SetActive(coins,false)'
+        value: 
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 4
@@ -5985,15 +6042,15 @@ MonoBehaviour:
         destinationDialogueID: 39
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Coins.NumCollected"] >= 3
-      userScript: SetQuestState("Coins", "success")
+      conditionsString: Variable["Coins.NumCollected"] == 3
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 610.59106
-        y: 379.4545
+        x: 611.8106
+        y: 377.09866
         width: 160
         height: 30
     - id: 38
@@ -6089,15 +6146,15 @@ MonoBehaviour:
         destinationDialogueID: 33
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Coins") == "success"
-      userScript: 
+      conditionsString: 
+      userScript: SetQuestState("Coins", "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 611.5887
-        y: 431.45456
+        y: 429.01547
         width: 160
         height: 30
     - id: 40
@@ -6127,7 +6184,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(Ghost Border,false);
         type: 0
         typeString: 
       - title: EventGuid
@@ -6166,8 +6223,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 247.58517, y: 88.1819}
-    canvasZoom: 0.8799996
+    canvasScrollPosition: {x: 139.71979, y: 0}
+    canvasZoom: 0.81999964
   - id: 5
     fields:
     - title: Title
