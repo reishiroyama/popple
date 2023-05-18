@@ -1336,6 +1336,12 @@ PlayableDirector:
     value: {fileID: 1965826249}
   - key: {fileID: 1879000902648339815, guid: f90e5464d8d943a4992f8902f041690f, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 6261317495910147703, guid: f90e5464d8d943a4992f8902f041690f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1253541675687345537, guid: f90e5464d8d943a4992f8902f041690f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2443037736955986263, guid: f90e5464d8d943a4992f8902f041690f, type: 2}
+    value: {fileID: 1818063327}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &650574462
@@ -11153,6 +11159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1818063326}
   - component: {fileID: 1818063325}
+  - component: {fileID: 1818063327}
   m_Layer: 0
   m_Name: global lights
   m_TagString: Untagged
@@ -11256,6 +11263,27 @@ Transform:
   m_Father: {fileID: 626052465}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1818063327
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818063324}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1864469549
 GameObject:
   m_ObjectHideFlags: 0
