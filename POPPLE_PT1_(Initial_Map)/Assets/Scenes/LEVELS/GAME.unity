@@ -290,6 +290,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6435386179751086335, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.9995117
+      objectReference: {fileID: 0}
     - target: {fileID: 6435386180046719745, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_text
       value: 'Mental health is important, and it''s normal to experience emotional
