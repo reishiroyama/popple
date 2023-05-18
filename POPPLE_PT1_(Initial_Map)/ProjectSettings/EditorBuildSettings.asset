@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LEVELS/ARRIETY LEVEL END.unity
     guid: 299019e166ac8484fb20e3f1593c1bfa
+  - enabled: 1
+    path: Assets/Scenes/CUTSCENES/END.unity
+    guid: 106cba38c98040a4d89cf4f25ee63d8f
   m_configObjects: {}

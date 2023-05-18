@@ -27462,9 +27462,9 @@ RectTransform:
   m_Father: {fileID: 6435386179752347613}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -80.881}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 10, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &6435386179225372716
@@ -54949,6 +54949,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5375868783399923542, guid: 867a7e1d85aa50649abfce6f739b7e78, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 05630d75f0922f94995966ec63cee5e2, type: 3}
     - target: {fileID: 5375868783399923542, guid: 867a7e1d85aa50649abfce6f739b7e78, type: 3}
       propertyPath: fullPauseDuration
       value: 3
