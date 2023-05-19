@@ -147,6 +147,11 @@ MonoBehaviour:
   m_target: {fileID: 0}
   m_usePlayerSpawnpoint: 0
   m_multiscene: 0
+--- !u!82 &29010053 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2543945174004238334, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+  m_PrefabInstance: {fileID: 280375735}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &280375735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -281,6 +286,10 @@ PrefabInstance:
     - target: {fileID: 4177671237352363812, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_RootOrder
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811831317273497847, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4997660428265034744, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_RootOrder
@@ -446,6 +455,10 @@ PrefabInstance:
         UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"walk","value":null,"typeHandle":{"Identification":"UnityEngine.AudioSource,
         UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 6435386179614865789, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 29010053}
     - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
