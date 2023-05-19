@@ -5220,8 +5220,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 56.066864, y: 618.22205}
-    canvasZoom: 0.9999985
+    canvasScrollPosition: {x: 295.43393, y: 1995.3079}
+    canvasZoom: 0.84999865
   - id: 4
     fields:
     - title: Title
