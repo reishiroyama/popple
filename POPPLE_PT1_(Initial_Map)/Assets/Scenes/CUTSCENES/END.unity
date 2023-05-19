@@ -538,11 +538,73 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\nGame Scriptwriter:\n\nLogo Design:\n\nCutscene Artist:\n\n\nOverworld
-    Artist:\n\n\nTile artist:\n\nAnimator:\n\n\n\nSketch Artist:\n\n2d Artist:\n\nSound
-    Design Artist:\n\nBackground Artist:\n\n\n\n\nMain Programmer:\n\nLead Programmer:\n\n\nTesters:
-    \r\n\nSpecial Thanks:\n\nCapstone Coordinator:\n\nCapstone Adviser:\n\nAcademic
-    Head:\n\nSchool:\n\nGame Engine:"
+  m_text: '
+
+
+    Game Scriptwriter:
+
+
+    Logo Design:
+
+
+    Cutscene Artist:
+
+
+
+    Overworld
+    Artist:
+
+
+
+    Tile artist:
+
+
+    Animator:
+
+
+
+
+    Sketch Artist:
+
+
+    2d Artist:
+
+
+    Sound
+    Design Artist:
+
+
+    Background Artist:
+
+
+
+
+
+    Main Programmer:
+
+
+    Lead
+    Programmer:
+
+
+
+    Special Thanks:
+
+
+    Capstone Coordinator:
+
+
+    Capstone
+    Adviser:
+
+
+    Academic Head:
+
+
+    School:
+
+
+    Game Engine:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb8fc5f85bdf26b4ead401a523a8c7a9, type: 2}
   m_sharedMaterial: {fileID: -4314742947804795686, guid: cb8fc5f85bdf26b4ead401a523a8c7a9, type: 2}
@@ -709,7 +771,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -953,7 +1015,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2676,7 +2738,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 3023149
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4857,8 +4919,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Game Creators\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacter Designer\n\n\n\n\n\n\n\n\n\n
-    \nProgramming Help\r"
+  m_text: "Game Creators\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacter Designer\n\n\n\n\n\n\n\n\n\n\nProgramming
+    Help\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb8fc5f85bdf26b4ead401a523a8c7a9, type: 2}
   m_sharedMaterial: {fileID: -4314742947804795686, guid: cb8fc5f85bdf26b4ead401a523a8c7a9, type: 2}
@@ -5675,7 +5737,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.16862746, g: 0.16078432, b: 0.23529412, a: 1}
-  m_Intensity: 1
+  m_Intensity: 3.1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -12738,7 +12800,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -12866,9 +12928,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\n\nAira May\r\n\nIrene Jill\r\n\nJhossa\nIrene Jill\r\n\nJhossa\nIrene
     Jill\r\r\n\nJhossa\r\n\nJhossa\r\n\n\r\n\nMitzi Igerlene\n\nJhossa\n\nIrene Jill\r\n\nIrene
-    Jill\nJhossa\n\n\n\nMitzi Igerlene\n\nByron Joseph\nJhossa\n\nTesters: \r\n\nByron
-    Joseph G. Del Rosario\n\nSir Raldy Henry Almonte\n\nSir Franchezco Renz Hernandez\n\nMa'am
-    Regina Mape\n\nSTI College Balagtas\r\n\nUNITY"
+    Jill\nJhossa\n\n\n\nMitzi Igerlene\n\nByron Joseph\nJhossa\n\nByron Joseph G.
+    Del Rosario\n\nSir Raldy Henry Almonte\n\nSir Franchezco Renz Hernandez\n\nMa'am
+    Regina Mape\n\nSTI College Balagtas\r\n\nUNITY\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb8fc5f85bdf26b4ead401a523a8c7a9, type: 2}
   m_sharedMaterial: {fileID: -4314742947804795686, guid: cb8fc5f85bdf26b4ead401a523a8c7a9, type: 2}
