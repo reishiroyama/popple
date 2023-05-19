@@ -123,6 +123,30 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &29010024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6869794193405023291, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+  m_PrefabInstance: {fileID: 280375735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &29010042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29010024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af33a602e20a3d4ca46c8a6ef942618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_key: 
+  m_appendSaverTypeToKey: 0
+  m_saveAcrossSceneChanges: 1
+  m_restoreStateOnStart: 0
+  m_target: {fileID: 0}
+  m_usePlayerSpawnpoint: 0
+  m_multiscene: 0
 --- !u!1001 &280375735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,6 +154,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114170477643172837, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114170477643172837, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114170477643172837, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 960
+      objectReference: {fileID: 0}
+    - target: {fileID: 114170477643172837, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -192.2409
+      objectReference: {fileID: 0}
+    - target: {fileID: 463748105612077380, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 817219794399790156, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_SizeDelta.x
       value: 82.163
@@ -386,6 +430,38 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 302400448}
+    - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadFromSlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PixelCrushers.SaveSystemMethods, Assembly-CSharp-firstpass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435386179670046607, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6435386179751086335, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -453,6 +529,22 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8011065129313753557, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011065129313753557, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011065129313753557, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 960
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011065129313753557, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -453.21277
+      objectReference: {fileID: 0}
     - target: {fileID: 8022854651769956918, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -519,3 +611,161 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+--- !u!1 &302400443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6435386179670046601, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+  m_PrefabInstance: {fileID: 280375735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &302400448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302400443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d3329b6cd68ab4a99cdab5d7d333c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultStartingSceneName: 
+--- !u!1 &566703803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6435386179621428476, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+  m_PrefabInstance: {fileID: 280375735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &566703807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566703803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03526e258566dc247a4eb8525aeeb667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_key: 
+  m_appendSaverTypeToKey: 0
+  m_saveAcrossSceneChanges: 1
+  m_restoreStateOnStart: 0
+  m_mode: 0
+  m_destroyMode: 1
+  m_destroyedVersionPrefab: {fileID: 0}
+--- !u!1 &792584242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6435386178469582616, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+  m_PrefabInstance: {fileID: 280375735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &792584247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792584242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689b4b1238e337d4590a91183947bcd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_key: 
+  m_appendSaverTypeToKey: 0
+  m_saveAcrossSceneChanges: 1
+  m_restoreStateOnStart: 0
+  skipApplyDataAfterFramesIfApplyImmediate: 1
+  saveRawData: 0
+--- !u!114 &792584248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792584242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc03036aad05c334eab057a96938959a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_version: 0
+  m_saveCurrentScene: 1
+  m_framesToWaitBeforeApplyData: 0
+  m_debug: 0
+--- !u!114 &792584250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792584242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4d3f2fce70b2441bd76f6c5777e8ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_playerPrefsKeyBase: Save
+  encrypt: 0
+  encryptionPassword: My Password
+  m_debug: 0
+--- !u!114 &792584251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792584242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbafe64f40b0694b8d4ec9c082f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_prettyPrint: 0
+--- !u!1 &1057845178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6435386180011490483, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+  m_PrefabInstance: {fileID: 280375735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1057845182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057845178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03526e258566dc247a4eb8525aeeb667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_key: 
+  m_appendSaverTypeToKey: 0
+  m_saveAcrossSceneChanges: 1
+  m_restoreStateOnStart: 0
+  m_mode: 0
+  m_destroyMode: 1
+  m_destroyedVersionPrefab: {fileID: 0}
+--- !u!1 &2011221869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6435386179158998933, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+  m_PrefabInstance: {fileID: 280375735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2011221873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011221869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03526e258566dc247a4eb8525aeeb667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_key: 
+  m_appendSaverTypeToKey: 0
+  m_saveAcrossSceneChanges: 1
+  m_restoreStateOnStart: 0
+  m_mode: 0
+  m_destroyMode: 1
+  m_destroyedVersionPrefab: {fileID: 0}
