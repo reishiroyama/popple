@@ -3437,7 +3437,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 49
         destinationConversationID: 3
-        destinationDialogueID: 82
+        destinationDialogueID: 85
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5236,11 +5236,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -5248,11 +5248,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: I'm willing to listen now.
         type: 0
         typeString: 
       - title: Sequence
-        value: SetActive(FAIL PANEL)
+        value: 
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -5266,7 +5266,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 82
+        destinationConversationID: 3
+        destinationDialogueID: 83
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5274,13 +5280,233 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 852.33234
-        y: 1974.6957
+        x: 858.20935
+        y: 2096.1248
+        width: 160
+        height: 30
+    - id: 83
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Oh.. I don't know if I can..
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 83
+        destinationConversationID: 3
+        destinationDialogueID: 84
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 854.63794
+        y: 2146.1248
+        width: 160
+        height: 30
+    - id: 84
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: It's alright, I'll be here with you.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 84
+        destinationConversationID: 3
+        destinationDialogueID: 43
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 854.63794
+        y: 2196.1248
+        width: 160
+        height: 30
+    - id: 85
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 85
+        destinationConversationID: 3
+        destinationDialogueID: 86
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 855.22534
+        y: 1987.1957
+        width: 160
+        height: 30
+    - id: 86
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'I''m sorry. '
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: SetActive(Exion Fail)
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 86
+        destinationConversationID: 3
+        destinationDialogueID: 82
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 856.11816
+        y: 2043.4459
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 497.81274, y: 1510.9064}
-    canvasZoom: 0.99999845
+    canvasScrollPosition: {x: 340.33722, y: 1845.0702}
+    canvasZoom: 0.66999876
   - id: 4
     fields:
     - title: Title
@@ -7402,8 +7628,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I just want to give you some ice cream. This is the only food I was
-          able to find.
+        value: I just want to give you some ice cream. I found some food along the
+          way.
         type: 0
         typeString: 
       - title: Sequence
@@ -7431,7 +7657,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350
+        x: 349.10715
         y: 1134
         width: 160
         height: 30
@@ -7458,7 +7684,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: It's also a very conforting food,
+        value: But I read that ice creams are very comforting.
         type: 0
         typeString: 
       - title: Sequence
@@ -8013,8 +8239,8 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 177.65942
-        y: 1670.8085
+        x: 215.9573
+        y: 1730.3829
         width: 160
         height: 30
     - id: 31
@@ -8130,8 +8356,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350
-        y: 1728
+        x: 450.00003
+        y: 1731.1915
         width: 160
         height: 30
     - id: 33
@@ -8187,8 +8413,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 174.54395
-        y: 1733.7942
+        x: 212.84183
+        y: 1793.3687
         width: 160
         height: 30
     - id: 34
@@ -8240,8 +8466,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 171.50833
-        y: 1802.0798
+        x: 209.80621
+        y: 1861.6543
         width: 160
         height: 30
     - id: 36
@@ -8285,7 +8511,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 36
         destinationConversationID: 5
-        destinationDialogueID: 37
+        destinationDialogueID: 46
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -8295,8 +8521,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350
-        y: 1782
+        x: 450.00003
+        y: 1785.1915
         width: 160
         height: 30
     - id: 37
@@ -8352,8 +8578,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350
-        y: 1836
+        x: 445.00003
+        y: 1887.1915
         width: 160
         height: 30
     - id: 38
@@ -8662,7 +8888,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ...
+        value: 'I think I saw a teddy bear before I got here. Let me get it for you. '
         type: 0
         typeString: 
       - title: Sequence
@@ -8676,7 +8902,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 45
+        destinationConversationID: 5
+        destinationDialogueID: 30
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -8684,13 +8916,68 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350
-        y: 1886
+        x: 446.06387
+        y: 1937.1915
+        width: 160
+        height: 30
+    - id: 46
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: SetActive(Arriety Fail)
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 46
+        destinationConversationID: 5
+        destinationDialogueID: 37
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 450.00003
+        y: 1835.1915
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 84.714264, y: 1463.8003}
-    canvasZoom: 0.9999995
+    canvasScrollPosition: {x: 137.55708, y: 1478.8976}
+    canvasZoom: 0.9399996
   - id: 6
     fields:
     - title: Title
