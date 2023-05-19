@@ -8428,6 +8428,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 'SetActive(GIVE TEDDY CANVAS);
+
+          SetActive(Arriety Border,false);'
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -8443,11 +8449,23 @@ MonoBehaviour:
       userScript: SetQuestEntryState("Teddy Bear", 1, "success")
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 699.7459
-        y: 1857.7778
+        x: 701.6877
+        y: 1855.836
         width: 160
         height: 30
     - id: 42
@@ -8559,7 +8577,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 261.3259, y: 1535.5574}
+    canvasScrollPosition: {x: 307.92783, y: 1529.7323}
     canvasZoom: 1.0299995
   - id: 6
     fields:
