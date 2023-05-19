@@ -179,7 +179,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7132443058630411020}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2864892107404216779
 SpriteRenderer:
@@ -430,7 +430,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6435386179878090133, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
 --- !u!4 &7132443058048972235 stripped
 Transform:

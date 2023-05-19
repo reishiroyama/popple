@@ -123,6 +123,128 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &642759909
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4422825223400436867, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825223400436867, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825223400436867, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825223400436867, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791260, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791266, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_Name
+      value: Ending Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224408791266, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422825224973304953, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+      propertyPath: m_text
+      value: Follow Ghost
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7195574277870253119, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
 --- !u!1001 &796530676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -174,9 +296,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2918821443710339744, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 274.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918821443710339744, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.51
+      objectReference: {fileID: 0}
     - target: {fileID: 3256041649314010568, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4415764257580287699, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 121.51
       objectReference: {fileID: 0}
     - target: {fileID: 6434944785465188149, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
       propertyPath: m_IsActive
@@ -626,6 +760,26 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[30].second.m_TileObjectToInstantiateIndex
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 7132443058667216753, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443058667216754, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443058667216756, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443058667216759, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: barkUISettings.barkUIOffset.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443058667216759, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: barkUISettings.barkUIOffset.y
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7132443059005589594, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
       propertyPath: m_text
       value: 'Follow the link below to explore the database:'
@@ -723,6 +877,89 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+--- !u!1 &796530677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2014553617582236718, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+  m_PrefabInstance: {fileID: 796530676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &796530678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796530677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  setAnotherQuestEntryState: 0
+  anotherQuestEntryNumber: 1
+  anotherQuestEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 796530688}
+  barkTarget: {fileID: 0}
+  barkOrder: 1
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Arriety Thank you
+  conversationConversant: {fileID: 796530688}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: 43
+  startConversationEntryTitle: 
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  preventRestartOnSameFrameEnded: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: e5e437b5c7c20e94b95b3e7010727603, type: 2}
+--- !u!4 &796530688 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200811488378243404, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+  m_PrefabInstance: {fileID: 796530676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1735402590
 PrefabInstance:
   m_ObjectHideFlags: 0
