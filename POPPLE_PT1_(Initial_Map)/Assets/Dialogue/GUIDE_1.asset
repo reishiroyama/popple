@@ -3423,7 +3423,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(transform_exion)
         type: 0
         typeString: 
       conversationID: 3
@@ -3447,7 +3447,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 852.33234
+        x: 854.33234
         y: 1924.6957
         width: 160
         height: 30
@@ -5279,7 +5279,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 482.81268, y: 1503.9064}
+    canvasScrollPosition: {x: 497.81274, y: 1510.9064}
     canvasZoom: 0.99999845
   - id: 4
     fields:

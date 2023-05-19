@@ -180,6 +180,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2015685893349962789, guid: e885870652544e24d9b198b030a70796, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 3293693719180299911, guid: e885870652544e24d9b198b030a70796, type: 3}
       propertyPath: m_Name
       value: EXION LEVEL
@@ -442,11 +446,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6945987035105102925, guid: e885870652544e24d9b198b030a70796, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7509884364046492404, guid: e885870652544e24d9b198b030a70796, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9009366683864288487, guid: e885870652544e24d9b198b030a70796, type: 3}
       propertyPath: m_AnchorMax.y
