@@ -882,6 +882,54 @@ PrefabInstance:
         needs mental health or psychological services in the Philippines, there is
         a comprehensive database available to help you find the support you deserve. '
       objectReference: {fileID: 0}
+    - target: {fileID: 7132443059208226163, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059208226163, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059208226163, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059208226163, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059208226163, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059208226163, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059288555333, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059288555333, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059288555333, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059288555333, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059288555333, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059288555333, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7132443059324957818, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -896,6 +944,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7132443059451676945, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059536803424, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059536803424, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059536803424, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059536803424, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059536803424, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132443059536803424, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7132443059582655763, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
