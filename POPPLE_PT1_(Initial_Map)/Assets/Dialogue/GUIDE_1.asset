@@ -8701,7 +8701,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "You\u2019ve accomplished your task, Eaton"
+        value: "You\u2019ve accomplished your task, Eaton!"
         type: 0
         typeString: 
       - title: Sequence
@@ -8756,8 +8756,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "You\u2019re doing a great job, as you can see there are lesser clouds
-          in the sky. It means you are getting there. "
+        value: You did a great job, and the clouds seems to be disapating.
         type: 0
         typeString: 
       - title: Sequence
@@ -8785,7 +8784,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
+        x: 21
         y: 154
         width: 160
         height: 30
@@ -8812,11 +8811,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "But you still have a lot of things to do, don\u2019t give up!"
+        value: Come with me!
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(Ending Canvas)
         type: 0
         typeString: 
       conversationID: 6
@@ -8834,7 +8833,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 21
+        x: 20
         y: 203
         width: 160
         height: 30
