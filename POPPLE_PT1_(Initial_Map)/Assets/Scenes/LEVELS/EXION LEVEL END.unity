@@ -609,6 +609,10 @@ PrefabInstance:
         UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4150495726919846254, guid: e885870652544e24d9b198b030a70796, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150495726919846254, guid: e885870652544e24d9b198b030a70796, type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
       objectReference: {fileID: 1757242840}
