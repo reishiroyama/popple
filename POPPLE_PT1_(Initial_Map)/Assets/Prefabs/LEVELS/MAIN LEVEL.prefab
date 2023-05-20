@@ -885,10 +885,10 @@ RectTransform:
   m_Father: {fileID: 2465108666643272190}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3353814062856394426
 CanvasRenderer:
@@ -3201,10 +3201,10 @@ RectTransform:
   m_Father: {fileID: 2465108666643272190}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8906776586367941459
 CanvasRenderer:
@@ -63773,7 +63773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5951838717631353705, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7578895498007341484, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_SizeDelta.x
@@ -63838,12 +63838,12 @@ PrefabInstance:
     - target: {fileID: 8605939125512014832, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_text
       value: "told me that We need 4 hugs a day for survival. \nWe need 8 hugs \na
-        day for maintenance. \nWe need 12 hugs \na day forgrowth. \n\ncan you belive\nthat?\nI
+        day for maintenance. \nWe need 12 hugs \na day forgrowth. \n\ncan you believe\nthat?\nI
         then found\nout that \nShe's a\nPsychotherapist"
       objectReference: {fileID: 0}
     - target: {fileID: 8605939125512014832, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_lineSpacing
-      value: -8.28
+      value: -13.26
       objectReference: {fileID: 0}
     - target: {fileID: 8605939125512014832, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_paragraphSpacing
