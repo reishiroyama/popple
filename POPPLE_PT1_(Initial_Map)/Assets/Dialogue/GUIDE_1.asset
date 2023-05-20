@@ -5505,7 +5505,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 347.36594, y: 1542.8091}
+    canvasScrollPosition: {x: 453.2485, y: 2236.9282}
     canvasZoom: 0.8499986
   - id: 4
     fields:
@@ -8976,7 +8976,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 137.55708, y: 1478.8976}
+    canvasScrollPosition: {x: 173.72731, y: 1487.4082}
     canvasZoom: 0.9399996
   - id: 6
     fields:
@@ -9941,8 +9941,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 19.47169, y: 10.584881}
+    canvasZoom: 1.06
   syncInfo:
     syncActors: 0
     syncItems: 0
