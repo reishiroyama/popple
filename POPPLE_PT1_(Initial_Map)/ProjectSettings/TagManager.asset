@@ -6,6 +6,9 @@ TagManager:
   tags:
   - ground
   - QUEST
+  - ghost
+  - arriety
+  - exion
   - collectable
   layers:
   - Default
