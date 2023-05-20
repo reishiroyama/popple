@@ -196,7 +196,19 @@ MonoBehaviour:
   setAnimatorStateActions: []
   onExecute:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 479783350}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
@@ -206,6 +218,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2918821443710339744, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
   m_PrefabInstance: {fileID: 796530676}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &479783350 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7132443059324957823, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+  m_PrefabInstance: {fileID: 796530676}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479783337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &642759909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -351,7 +374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4422825224485865061, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4422825224973304953, guid: a4eb38065d111bd4fbcc78bfce207a50, type: 3}
       propertyPath: m_text
@@ -1161,7 +1184,19 @@ MonoBehaviour:
   setAnimatorStateActions: []
   onExecute:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 796530689}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
@@ -1171,6 +1206,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7200811488378243404, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
   m_PrefabInstance: {fileID: 796530676}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &796530689 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7132443058667216752, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+  m_PrefabInstance: {fileID: 796530676}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796530677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1735402590
 PrefabInstance:
   m_ObjectHideFlags: 0
