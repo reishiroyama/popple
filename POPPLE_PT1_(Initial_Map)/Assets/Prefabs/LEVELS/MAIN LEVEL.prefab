@@ -63719,6 +63719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trivia5
       objectReference: {fileID: 0}
+    - target: {fileID: 1769725123136946754, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2737738198204166148, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_text
       value: Virginia Sati
@@ -63773,7 +63777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5951838717631353705, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7578895498007341484, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_SizeDelta.x
