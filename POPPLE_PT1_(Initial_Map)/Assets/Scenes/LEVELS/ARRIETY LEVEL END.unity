@@ -546,6 +546,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7132443058010093872, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 7132443058014771838, guid: 0a26353cb44a13947b957850e01e4b93, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
