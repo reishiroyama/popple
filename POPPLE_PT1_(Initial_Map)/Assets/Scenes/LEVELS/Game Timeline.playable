@@ -579,11 +579,11 @@ MonoBehaviour:
     m_Recordable: 1
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 99.89999999999999
+    m_PostExtrapolationTime: 85.23333333333328
     m_PreExtrapolationTime: 0
     m_DisplayName: Recorded
   - m_Version: 1
-    m_Start: 149.38333333333333
+    m_Start: 134.7166666666666
     m_ClipIn: 0
     m_Asset: {fileID: 8025411473464243997}
     m_Duration: 4.183333333333334
@@ -648,11 +648,11 @@ MonoBehaviour:
     m_Recordable: 1
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 160.75
+    m_PostExtrapolationTime: 122.61666666666665
     m_PreExtrapolationTime: 0
     m_DisplayName: Recorded (1)
   - m_Version: 1
-    m_Start: 314.31666666666666
+    m_Start: 261.5166666666666
     m_ClipIn: 0
     m_Asset: {fileID: 9055407090819912225}
     m_Duration: 4.183333333333334
@@ -717,11 +717,11 @@ MonoBehaviour:
     m_Recordable: 1
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 15.200663778806813
+    m_PostExtrapolationTime: 21.283333333333417
     m_PreExtrapolationTime: 0
     m_DisplayName: Recorded (2)
   - m_Version: 1
-    m_Start: 333.7006637788068
+    m_Start: 286.98333333333335
     m_ClipIn: 0
     m_Asset: {fileID: -259988476154721512}
     m_Duration: 4.183333333333334
@@ -929,23 +929,6 @@ MonoBehaviour:
   m_bufferingTime: 0.1
   m_ClipProperties:
     volume: 1
---- !u!114 &-4094572973518416615
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: ea08e3df5acd60241a2b62ae193cd296, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 0.5
 --- !u!74 &-4064298247790204114
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -1042,23 +1025,6 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
---- !u!114 &-4016614656337515935
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: ea08e3df5acd60241a2b62ae193cd296, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 0.5
 --- !u!114 &-3947911395601156809
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1098,23 +1064,6 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &-2311716771300735068
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: ea08e3df5acd60241a2b62ae193cd296, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 0.5
 --- !u!114 &-259988476154721512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1202,119 +1151,35 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -4094572973518416615}
-    m_Duration: 165.90367346938777
+    m_Asset: {fileID: 4449610191755819743}
+    m_Duration: 313.10367346938773
     m_TimeScale: 1
     m_ParentTrack: {fileID: 145134139059372067}
-    m_EaseInDuration: 3.46
+    m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 2.153673469387769
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Lunar Dragon Song - Sad Theme [Rain Then Sunshine] [8 bit music]
-  - m_Version: 1
-    m_Start: 163.75
-    m_ClipIn: 0
-    m_Asset: {fileID: -2311716771300735068}
-    m_Duration: 165.90367346938777
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 145134139059372067}
-    m_EaseInDuration: 3.46
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 2.153673469387769
-    m_BlendOutDuration: 1.7703401360544149
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Lunar Dragon Song - Sad Theme [Rain Then Sunshine] [8 bit music]
-  - m_Version: 1
-    m_Start: 327.8833333333333
-    m_ClipIn: 0
-    m_Asset: {fileID: -4016614656337515935}
-    m_Duration: 163.31666666666666
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 145134139059372067}
-    m_EaseInDuration: 3.46
-    m_EaseOutDuration: 2.9
-    m_BlendInDuration: 1.7703401360544149
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1351,7 +1216,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Lunar Dragon Song - Sad Theme [Rain Then Sunshine] [8 bit music]
+    m_DisplayName: InShot_20230522_221435839
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -2364,6 +2229,23 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &4449610191755819743
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: df9c6b79d23fe6843a66bb66da65984a, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.7
 --- !u!114 &4913625681559929052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2455,7 +2337,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Thunder - Sound FX
   - m_Version: 1
-    m_Start: 149.20000000000005
+    m_Start: 134.53333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -7874295904405000579}
     m_Duration: 12.826122448979591
@@ -2524,7 +2406,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Thunder - Sound FX
   - m_Version: 1
-    m_Start: 314.1333333333334
+    m_Start: 261.3333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 103696803609776784}
     m_Duration: 12.826122448979591
@@ -2593,7 +2475,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Thunder - Sound FX
   - m_Version: 1
-    m_Start: 333.7006637788068
+    m_Start: 286.98333333333335
     m_ClipIn: 0
     m_Asset: {fileID: -4440858941058162384}
     m_Duration: 12.826122448979591
@@ -2690,9 +2572,9 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 0
+    m_ClipIn: 3.1289958706249763
     m_Asset: {fileID: -3947911395601156809}
-    m_Duration: 491.2
+    m_Duration: 313.10367346938773
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5313155285651907709}
     m_EaseInDuration: 0
