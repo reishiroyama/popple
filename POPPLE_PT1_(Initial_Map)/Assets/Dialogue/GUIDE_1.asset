@@ -1005,8 +1005,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'The weather is a bit cloudy, why are here outside? It might rain
-          in a few minutes.  '
+        value: 'The weather is a bit cloudy, why are  outside? It might rain in a
+          few minutes.  '
         type: 0
         typeString: 
       - title: Sequence
@@ -1090,7 +1090,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 530
+        x: 529.0566
         y: 162
         width: 160
         height: 30
@@ -1173,7 +1173,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "I don\u2019t care about the weather; nothing will change if I am
+        value: "I don\u2019t care about the weather, nothing will change if I am
           outside or inside. "
         type: 0
         typeString: CustomFieldType_Text
@@ -1229,7 +1229,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'It always rains, every single day even at night when I am asleep. '
+        value: 'It always rains, every single day. even at night when I am asleep. '
         type: 0
         typeString: 
       - title: Sequence
@@ -1257,7 +1257,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 700
+        x: 699.1935
         y: 216
         width: 160
         height: 30
@@ -1450,7 +1450,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: but someone will come by that will acknowledge your pain and listen.
+        value: but someone will come by who will acknowledge your pain and listen.
         type: 0
         typeString: 
       - title: Sequence
@@ -2914,7 +2914,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "My mom dedicated all her life to be a good mom but even the day she
-          died there wasn\u2019t even a good son that was there for him."
+          died there wasn\u2019t even a good son that was there for her."
         type: 0
         typeString: 
       - title: Sequence
@@ -2948,7 +2948,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 611.00085
+        x: 609.8244
         y: 1397.2941
         width: 160
         height: 30
@@ -4423,8 +4423,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Can you help me find a candle? Since there\u2019s power outage last
-          night\u2026 I don\u2019t have any spare candle in the house."
+        value: "Can you help me find a candle? Since it's always dark in here, I
+          don\u2019t have any spare candle in the house."
         type: 0
         typeString: 
       - title: Sequence
@@ -4587,7 +4587,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I enjoy getting to know you, I hope you\u2019ll be okay along the
+        value: "I enjoyed getting to know you, I hope you\u2019ll be okay along the
           way\u2026 I am always rooting for your healing, Exion!"
         type: 0
         typeString: 
@@ -4979,8 +4979,8 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: 'It helps to make them feel loved and supported, a flower can also
-          symbolize or be a perfect solution when it is hard to communicate or find
-          the right words to say.  '
+          symbolize a perfect solution when it is hard to communicate or find the
+          right words to say.  '
         type: 0
         typeString: 
       - title: Sequence
@@ -5634,7 +5634,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "She doesn\u2019t want you to blame yourself for what has happened
-          to her because if she can do anything to be here with you. "
+          to her because if she can do anything, she'll be here with you. "
         type: 0
         typeString: 
       - title: Sequence
@@ -5722,8 +5722,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 161.29182, y: 1873.0215}
-    canvasZoom: 0.63999873
+    canvasScrollPosition: {x: 531.58075, y: 2373.0447}
+    canvasZoom: 1.1499982
   - id: 4
     fields:
     - title: Title
@@ -6961,8 +6961,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Hello there. I visit Popple, today\u2026 why are you here? Alone?
-          This place looks abandoned."
+        value: Hello there. Why are you here all alone? This place looks abandoned.
         type: 0
         typeString: 
       - title: Sequence
@@ -7017,8 +7016,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Uh, why are you here? This place is abandoned, yes. But I feel safe
-          here\u2026"
+        value: "Uh, why are you here? This place is abandoned. But I feel safe here\u2026"
         type: 0
         typeString: 
       - title: Sequence
@@ -7102,7 +7100,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 350
-        y: 324
+        y: 326.43903
         width: 160
         height: 30
     - id: 6
@@ -7238,8 +7236,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I don\u2019t know\u2026 I just remembered I ran because people were
-          so mean to me."
+        value: "I don\u2019t know\u2026 I just remembered running because people
+          were so mean to me."
         type: 0
         typeString: 
       - title: Sequence
@@ -7349,8 +7347,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "There\u2019s lots of unwanted messages about me\u2026 the last thing
-          I remembered was I run away from them."
+        value: "There are lots of unwanted messages about me\u2026 the last thing
+          I remembered was running away from them."
         type: 0
         typeString: 
       - title: Sequence
@@ -7378,7 +7376,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350
+        x: 348.6842
         y: 594
         width: 160
         height: 30
@@ -7488,7 +7486,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350
+        x: 350.97086
         y: 756
         width: 160
         height: 30
@@ -7543,7 +7541,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350
+        x: 350.9709
         y: 810
         width: 160
         height: 30
@@ -7570,7 +7568,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: No one, I felt like no one wanted to be there with me.
+        value: No, it felt like no one wanted me to be there.
         type: 0
         typeString: 
       - title: Sequence
@@ -7845,8 +7843,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I just want to give you some ice cream. I found some food along the
-          way.
+        value: I just want to give you some ice cream and sweets that I found along
+          the way.
         type: 0
         typeString: 
       - title: Sequence
@@ -7901,7 +7899,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: But I read that ice creams are very comforting.
+        value: But I read that sweets, especially ice creams, are very comforting.
         type: 0
         typeString: 
       - title: Sequence
@@ -8539,7 +8537,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Yes, it was gifted to me when I was young\u2026  whenever people
-          are being mean to me that is the only one that helps me to be okay."
+          are being mean to me, that is the only one that helps me to be okay."
         type: 0
         typeString: 
       - title: Sequence
@@ -8766,8 +8764,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Teddy bears can be used to give warm hugs that lifts people up\u2026
-          especially when they in the edge of breaking down. We should help the character
-          to feel better, and for sure, to boost happiness and comfort."
+          especially when they're in the edge of breaking down. "
         type: 0
         typeString: 
       - title: Sequence
@@ -8785,7 +8782,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 37
         destinationConversationID: 5
-        destinationDialogueID: 45
+        destinationDialogueID: 47
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9105,7 +9102,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'I think I saw a teddy bear before I got here. Let me get it for you. '
+        value: 'I think I saw a teddy bear before I got here. '
         type: 0
         typeString: 
       - title: Sequence
@@ -9133,8 +9130,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 446.06387
-        y: 1937.1915
+        x: 459.45676
+        y: 2030.9414
         width: 160
         height: 30
     - id: 46
@@ -9192,9 +9189,64 @@ MonoBehaviour:
         y: 1835.1915
         width: 160
         height: 30
+    - id: 47
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: We should help her feel better, boost her happiness and give her comfort.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 47
+        destinationConversationID: 5
+        destinationDialogueID: 45
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 455.71432
+        y: 1939.8701
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 173.72731, y: 1487.4082}
-    canvasZoom: 0.9399996
+    canvasScrollPosition: {x: 166.9958, y: 1627.1373}
+    canvasZoom: 1.1199994
   - id: 6
     fields:
     - title: Title

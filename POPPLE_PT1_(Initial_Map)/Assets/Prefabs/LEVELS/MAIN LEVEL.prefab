@@ -60727,7 +60727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1758626618077665560, guid: d40f8b3f04642a54687fa44a5fb9ff38, type: 3}
       propertyPath: m_text
-      value: Diann Binn
+      value: Diann Binns
       objectReference: {fileID: 0}
     - target: {fileID: 2249407509816468990, guid: d40f8b3f04642a54687fa44a5fb9ff38, type: 3}
       propertyPath: m_Name
@@ -61279,7 +61279,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0022141933, y: -0.037957758}
+  m_Offset: {x: 0.0022141933, y: -0.43451533}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -61290,7 +61290,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.7531085, y: 0.81425685}
+  m_Size: {x: 2.7531085, y: 0.021141708}
   m_EdgeRadius: 0
 --- !u!114 &5336951953635683275
 MonoBehaviour:
@@ -61728,7 +61728,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016357422, y: -0.08252311}
+  m_Offset: {x: 0.016357422, y: -0.49621105}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -61739,7 +61739,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7967529, y: 0.8349538}
+  m_Size: {x: 1.7967529, y: 0.007577896}
   m_EdgeRadius: 0
 --- !u!114 &6435386178389384857
 MonoBehaviour:
@@ -64262,7 +64262,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.033920288, y: -0.06506634}
+  m_Offset: {x: -0.033920288, y: -0.49007034}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -64273,7 +64273,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0283356, y: 0.8698673}
+  m_Size: {x: 2.0283356, y: 0.019859314}
   m_EdgeRadius: 0
 --- !u!114 &5815158921985436278
 MonoBehaviour:
