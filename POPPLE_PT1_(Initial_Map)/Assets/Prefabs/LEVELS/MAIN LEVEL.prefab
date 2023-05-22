@@ -16283,7 +16283,7 @@ AudioSource:
   m_GameObject: {fileID: 6435386178730709912}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b3289ae58842b074a890d48df38b4dcf, type: 2}
   m_audioClip: {fileID: 8300000, guid: 514df7d01b7327b4ca6c77ab86a4fa7b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
@@ -16379,7 +16379,7 @@ AudioSource:
   m_GameObject: {fileID: 6435386178730709912}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b3289ae58842b074a890d48df38b4dcf, type: 2}
   m_audioClip: {fileID: 8300000, guid: 54748a51f05d2b448bddc37aa4ba4400, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
@@ -16475,7 +16475,7 @@ AudioSource:
   m_GameObject: {fileID: 6435386178730709912}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b3289ae58842b074a890d48df38b4dcf, type: 2}
   m_audioClip: {fileID: 8300000, guid: 5f71013d9416b1d4688edbb90ecccc52, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
@@ -57423,7 +57423,7 @@ AudioSource:
   m_GameObject: {fileID: 8289399512289531365}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b3289ae58842b074a890d48df38b4dcf, type: 2}
   m_audioClip: {fileID: 8300000, guid: cb08a1a9e6aec4349b5935dc2e7cdcf0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -57799,7 +57799,7 @@ AudioSource:
   m_GameObject: {fileID: 8334033922721240626}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b3289ae58842b074a890d48df38b4dcf, type: 2}
   m_audioClip: {fileID: 8300000, guid: cb08a1a9e6aec4349b5935dc2e7cdcf0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -59416,6 +59416,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7287298179898521669, guid: 81615dbc42647c0449717fb1229eb28a, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
     - target: {fileID: 8223828759493285049, guid: 81615dbc42647c0449717fb1229eb28a, type: 3}
       propertyPath: m_text
       value: Diann Binns
@@ -59443,6 +59447,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7209333816370662679}
     m_Modifications:
+    - target: {fileID: 1449798019928416434, guid: 52f231cb8dfb23748971efae685c6541, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
     - target: {fileID: 2652578946965899479, guid: 52f231cb8dfb23748971efae685c6541, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -59582,6 +59590,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7209333816370662679}
     m_Modifications:
+    - target: {fileID: 1127014269974281265, guid: d40f8b3f04642a54687fa44a5fb9ff38, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
     - target: {fileID: 1758626618077665560, guid: d40f8b3f04642a54687fa44a5fb9ff38, type: 3}
       propertyPath: m_text
       value: Diann Binn
@@ -59762,6 +59774,10 @@ PrefabInstance:
     - target: {fileID: 1069172207268720769, guid: f6f2e9e1f4548db4e85676923e817905, type: 3}
       propertyPath: m_onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3524980685109477098, guid: f6f2e9e1f4548db4e85676923e817905, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
       objectReference: {fileID: 0}
     - target: {fileID: 4357169752394082944, guid: f6f2e9e1f4548db4e85676923e817905, type: 3}
       propertyPath: m_Name
@@ -63468,6 +63484,10 @@ PrefabInstance:
     - target: {fileID: 669079393750675397, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181687670640721980, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78431374
       objectReference: {fileID: 0}
     - target: {fileID: 1769725123136946754, guid: 62ea009bc502c5444998f7ebc5674c56, type: 3}
       propertyPath: m_Name

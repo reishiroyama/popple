@@ -3205,11 +3205,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Popple is a one-shot game that is meant to play in one sitting. \r\n\r\nTHERE
-    IS NO SAVE FUNCTION. \r\n\r\nThis game is also created by Multimedia Artist with
-    little knowledge in programming. \r\nSo please expect game function bugs and
-    a mediocre user experience. \r\nWe encourage you to focus on the story and visuals
-    of the game."
+  m_text: "Popple is a one-shot game that is meant to be played in one sitting. \r\n\r\nTHERE
+    IS NO SAVE FUNCTION. \r\n\r\nThis game is also created by Multimedia Artists
+    with little knowledge in programming. \r\nSo please expect game function bugs
+    and a mediocre user experience. \r\nWe encourage you to focus on the story and
+    visuals of the game."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb8fc5f85bdf26b4ead401a523a8c7a9, type: 2}
   m_sharedMaterial: {fileID: -4314742947804795686, guid: cb8fc5f85bdf26b4ead401a523a8c7a9, type: 2}
