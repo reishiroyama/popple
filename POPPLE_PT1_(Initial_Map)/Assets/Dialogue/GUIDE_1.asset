@@ -5176,11 +5176,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 3
         type: 5
@@ -5192,15 +5192,19 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Let's go visit my Mom.
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: SetActive(Cemetery Border,false)
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 6c1405f5-d0cb-4f0e-93dc-bb802d54189a
+        type: 0
+        typeString: CustomFieldType_Text
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -5217,7 +5221,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 734.5582
-        y: 2461.6382
+        y: 2462.7021
         width: 160
         height: 30
     - id: 82
@@ -5722,8 +5726,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 531.58075, y: 2373.0447}
-    canvasZoom: 1.1499982
+    canvasScrollPosition: {x: 370.0516, y: 2177.3496}
+    canvasZoom: 0.9399984
   - id: 4
     fields:
     - title: Title
@@ -6725,7 +6729,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 139.71979, y: 0}
+    canvasScrollPosition: {x: 253.13452, y: 247.56104}
     canvasZoom: 0.81999964
   - id: 5
     fields:
@@ -8903,7 +8907,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 699.7459
-        y: 1809.8396
+        y: 1808.7758
         width: 160
         height: 30
     - id: 40
@@ -8940,6 +8944,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: bb581af6-3c24-4088-a55f-014e27826049
+        type: 0
+        typeString: 
       conversationID: 5
       isRoot: 0
       isGroup: 0
@@ -8968,7 +8976,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 701.6877
-        y: 1855.836
+        y: 1856.8999
         width: 160
         height: 30
     - id: 42
@@ -9245,8 +9253,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 166.9958, y: 1627.1373}
-    canvasZoom: 1.1199994
+    canvasScrollPosition: {x: 198.10179, y: 1471.7657}
+    canvasZoom: 0.9399996
   - id: 6
     fields:
     - title: Title
