@@ -46407,7 +46407,7 @@ EdgeCollider2D:
   - {x: 11.512442, y: -1.003251}
   - {x: 11.939408, y: -1.0022522}
   - {x: 12.238726, y: -0.9903393}
-  - {x: 14.518084, y: -1.019443}
+  - {x: 14.523824, y: -0.9907418}
   - {x: 14.507509, y: -1.4870421}
   - {x: 14.986274, y: -1.4901239}
   - {x: 14.982655, y: -2.0043063}
@@ -61184,11 +61184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5366667392555861078, guid: 2a783386301e6a84695e197c5e5c1bf3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.94
+      value: 20.42
       objectReference: {fileID: 0}
     - target: {fileID: 5366667392555861078, guid: 2a783386301e6a84695e197c5e5c1bf3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.55
+      value: -3.56
       objectReference: {fileID: 0}
     - target: {fileID: 5366667392555861078, guid: 2a783386301e6a84695e197c5e5c1bf3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -63888,11 +63888,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5164875691283811518, guid: 26cab938ed5c1f34797a2ef05154b8bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 4.765
       objectReference: {fileID: 0}
     - target: {fileID: 5164875691283811518, guid: 26cab938ed5c1f34797a2ef05154b8bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.623
+      value: -0.675
       objectReference: {fileID: 0}
     - target: {fileID: 5164875691283811518, guid: 26cab938ed5c1f34797a2ef05154b8bc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -64884,10 +64884,10 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 2
+  m_UseAutoMass: 1
+  m_Mass: 0.5807293
   m_LinearDrag: 1
-  m_AngularDrag: 1
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
