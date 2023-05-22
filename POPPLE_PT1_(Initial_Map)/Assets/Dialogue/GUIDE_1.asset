@@ -3418,8 +3418,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "I know that the person that actually makes me feel like I matter
-          is gone, yet now you\u2019re saying to me that it wasn\u2019t a big deal.
-          It is to me because the person that is gone is my mom!"
+          is gone, yet now you\u2019re saying to me that it wasn\u2019t a big deal. "
         type: 0
         typeString: 
       - title: Sequence
@@ -3437,7 +3436,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 49
         destinationConversationID: 3
-        destinationDialogueID: 85
+        destinationDialogueID: 90
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3447,7 +3446,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 853.2685
+        x: 852.092
         y: 1924.6957
         width: 160
         height: 30
@@ -3586,10 +3585,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I\u2019m very sorry for your loss but it is not entirely your fault.
-          I know how complicated it is to go on every single day and know how difficult
-          it is to cope or be happy. Know that I am here, I am here with you in this
-          tough time."
+        value: "I\u2019m very sorry for your loss but it is not entirely your fault. "
         type: 0
         typeString: 
       - title: Sequence
@@ -3607,7 +3603,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 52
         destinationConversationID: 3
-        destinationDialogueID: 53
+        destinationDialogueID: 87
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3673,8 +3669,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 1753.4285
+        x: 464.273
+        y: 1855.068
         width: 160
         height: 30
     - id: 54
@@ -3730,8 +3726,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 1807.4285
+        x: 464.273
+        y: 1909.068
         width: 160
         height: 30
     - id: 55
@@ -3757,9 +3753,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Your mother is for sure rooting for your growth, wants you to be
-          okay and be happy. She doesn\u2019t want you to blame yourself for what
-          has happened to her because if she can do anything to be here with you. "
+        value: 'Your mother is for sure rooting for your growth, wants you to be
+          okay and be happy. '
         type: 0
         typeString: 
       - title: Sequence
@@ -3777,7 +3772,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 55
         destinationConversationID: 3
-        destinationDialogueID: 56
+        destinationDialogueID: 89
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3787,8 +3782,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 1861.4285
+        x: 464.273
+        y: 1963.068
         width: 160
         height: 30
     - id: 56
@@ -3842,8 +3837,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 1915.4285
+        x: 465.64288
+        y: 2067.7532
         width: 160
         height: 30
     - id: 57
@@ -3899,8 +3894,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 1969.4285
+        x: 465.64288
+        y: 2121.7534
         width: 160
         height: 30
     - id: 58
@@ -3955,8 +3950,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 2023.4283
+        x: 465.64288
+        y: 2175.7524
         width: 160
         height: 30
     - id: 59
@@ -4011,8 +4006,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 2077.4282
+        x: 465.64288
+        y: 2229.7524
         width: 160
         height: 30
     - id: 60
@@ -4067,8 +4062,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 2131.4282
+        x: 465.64288
+        y: 2283.7524
         width: 160
         height: 30
     - id: 61
@@ -4122,8 +4117,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
-        y: 2185.4282
+        x: 465.64288
+        y: 2337.7524
         width: 160
         height: 30
     - id: 62
@@ -4179,8 +4174,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2240.4998
+        x: 465.59204
+        y: 2392.8242
         width: 160
         height: 30
     - id: 63
@@ -4234,8 +4229,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2294.4998
+        x: 465.59204
+        y: 2446.8242
         width: 160
         height: 30
     - id: 64
@@ -4291,8 +4286,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2348.4998
+        x: 465.59204
+        y: 2500.8242
         width: 160
         height: 30
     - id: 65
@@ -4346,8 +4341,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2402.4998
+        x: 465.59204
+        y: 2554.8242
         width: 160
         height: 30
     - id: 66
@@ -4401,8 +4396,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2456.4998
+        x: 465.59204
+        y: 2608.8242
         width: 160
         height: 30
     - id: 67
@@ -4457,8 +4452,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2510.4998
+        x: 465.59204
+        y: 2662.8242
         width: 160
         height: 30
     - id: 68
@@ -4509,8 +4504,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.50085
-        y: 2564.4998
+        x: 465.59204
+        y: 2716.8242
         width: 160
         height: 30
     - id: 69
@@ -5281,7 +5276,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 858.20935
-        y: 2096.1248
+        y: 2152.5955
         width: 160
         height: 30
     - id: 83
@@ -5336,7 +5331,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 854.63794
-        y: 2146.1248
+        y: 2202.5955
         width: 160
         height: 30
     - id: 84
@@ -5391,7 +5386,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 854.63794
-        y: 2196.1248
+        y: 2252.5955
         width: 160
         height: 30
     - id: 85
@@ -5446,7 +5441,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 855.22534
-        y: 1987.1957
+        y: 2043.6664
         width: 160
         height: 30
     - id: 86
@@ -5501,12 +5496,234 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 856.11816
-        y: 2043.4459
+        y: 2099.9165
+        width: 160
+        height: 30
+    - id: 87
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'I know how complicated it is to go on every single day and know how
+          difficult it is to cope or be happy. '
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 87
+        destinationConversationID: 3
+        destinationDialogueID: 88
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 465.76593
+        y: 1749.4285
+        width: 160
+        height: 30
+    - id: 88
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Know that I am here, I am here with you in this tough time.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 88
+        destinationConversationID: 3
+        destinationDialogueID: 53
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 467.5517
+        y: 1800.3214
+        width: 160
+        height: 30
+    - id: 89
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "She doesn\u2019t want you to blame yourself for what has happened
+          to her because if she can do anything to be here with you. "
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 89
+        destinationConversationID: 3
+        destinationDialogueID: 56
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 464.273
+        y: 2013.068
+        width: 160
+        height: 30
+    - id: 90
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: It is to me because the person that is gone is my mom!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 90
+        destinationConversationID: 3
+        destinationDialogueID: 85
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 851.9542
+        y: 1978.1251
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 453.2485, y: 2236.9282}
-    canvasZoom: 0.8499986
+    canvasScrollPosition: {x: 161.29182, y: 1873.0215}
+    canvasZoom: 0.63999873
   - id: 4
     fields:
     - title: Title
