@@ -617,7 +617,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I\u2019ll be the one guiding you in your expedition inside Popple."
+        value: 'I shall be the one guiding thee on thine expedition within Popple. '
         type: 0
         typeString: 
       - title: Sequence
@@ -672,9 +672,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Are you willing to help us?
-
-'
+        value: Will thou help us?
         type: 0
         typeString: 
       - title: Sequence
@@ -784,7 +782,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Hello, my name is Ghost but don\u2019t be afraid\u2026"
+        value: 'Greetings, I am known as Ghost but do not be afraid... '
         type: 0
         typeString: 
       - title: Sequence
@@ -949,8 +947,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "There\u2019s a lot of flowers in here, do you like taking care of
-          plants? "
+        value: This is a very lovely garden, are you the one taking care of plants?
         type: 0
         typeString: 
       - title: Sequence
@@ -1005,8 +1002,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'The weather is a bit cloudy, why are  outside? It might rain in a
-          few minutes.  '
+        value: "The weather\u2019s really bad right now. You shouldn\u2019t be outside "
         type: 0
         typeString: 
       - title: Sequence
@@ -1061,8 +1057,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "My mother used to take care of this garden, but now she\u2019s gone\u2026
-          everyone\u2019s gone. "
+        value: "My mother used to tend to this garden, but now she is gone\u2026
+          everyone is gone. "
         type: 0
         typeString: 
       - title: Sequence
@@ -1117,8 +1113,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "It\u2019s only I that\u2019s left, I don\u2019t even know how to
-          take care of a single plant. What more a garden? "
+        value: I am the only one left, I do not even know how to tend to a single
+          plant. Let alone a garden
         type: 0
         typeString: 
       - title: Sequence
@@ -1173,8 +1169,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "I don\u2019t care about the weather, nothing will change if I am
-          outside or inside. "
+        value: 'I care not for the weather; naught will change whether I be inside
+          or out. It rains always, every day, even at night when I sleep. '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1229,7 +1225,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'It always rains, every single day. even at night when I am asleep. '
+        value: 'It rains always, every day, even at night when I sleep. '
         type: 0
         typeString: 
       - title: Sequence
@@ -1284,8 +1280,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Since my mom\u2019s gone, nothing has ever changed. From the fact
-          that it\u2019s raining everywhere I go.  "
+        value: Since my mother's passing, naught has changed. The fact that it rains
+          everywhere I go is a testament to that.
         type: 0
         typeString: 
       - title: Sequence
@@ -1395,7 +1391,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' I know that you are going through tough times in your life, '
+        value: 'I know that it can be hard to see the light at the end of the tunnel
+          when you are going through a tough time, '
         type: 0
         typeString: 
       - title: Sequence
@@ -1450,7 +1447,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: but someone will come by who will acknowledge your pain and listen.
+        value: 'but I want to assure you that there is hope. '
         type: 0
         typeString: 
       - title: Sequence
@@ -1505,7 +1502,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' Whenever you need someone, I am here with you. '
+        value: You will get through this, and you will come out stronger on the other
+          side.
         type: 0
         typeString: 
       - title: Sequence
@@ -1533,7 +1531,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 530
+        x: 531.3158
         y: 432
         width: 160
         height: 30
@@ -1731,7 +1729,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I would prefer to pick some flowers for my mother\u2026"
+        value: I would prefer to pluck some flowers for my own mother.
         type: 0
         typeString: 
       - title: Sequence
@@ -1759,7 +1757,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 360
+        x: 361.2195
         y: 594
         width: 160
         height: 30
@@ -1786,9 +1784,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "...it\u2019s been five months since she left and since then I can\u2019t
-          visit her because I can\u2019t still accept that I won\u2019t ever see
-          her alive\u2026 "
+        value: It's been an agonizing five months since she departed from this world,
+          and the pain of her absence makes it incredibly difficult for me to fathom
+          the reality that I will never again have the chance to see her radiant
+          smile or hear her gentle voice.
         type: 0
         typeString: 
       - title: Sequence
@@ -1843,7 +1842,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I would love to pick flowers for you.
+        value: I would gladly pick flowers for you, then we can give it to your mother
+          later.
         type: 0
         typeString: 
       - title: Sequence
@@ -2188,11 +2188,11 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: Do you like the flowers?
+        value: Did you like the flowers?
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Do you like the flowers that I\u2019ve picked for her?"
+        value: "Did you like the flowers that I\u2019ve picked for her?"
         type: 0
         typeString: 
       - title: Sequence
@@ -2247,9 +2247,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "No\u2026 I feel sad, I remember all the memories about my mother
-          when I wasn\u2019t able to be the best son to her. The moments that I should
-          be by her side when she was sick and weak. "
+        value: No. I feel sorrowful. I recall all the times I was not the best son
+          to my own mother. Like when she was ill, and I was not at her side.
         type: 0
         typeString: 
       - title: Sequence
@@ -2304,7 +2303,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Yes, when she was alive. She likes any kind of flowers
+        value: Verily, when she was yet among the living, my mother didst enjoy all
+          manner of flowers.
         type: 0
         typeString: 
       - title: Sequence
@@ -2359,7 +2359,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I feel sad,
+        value: 'I know not what I could have done differently. '
         type: 0
         typeString: 
       - title: Sequence
@@ -2414,8 +2414,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " I remember all the memories about my mother when I wasn\u2019t able
-          to be the best son to her. "
+        value: 'I wish I could have been there for her. I wish I could have made
+          her last days more comfortable. '
         type: 0
         typeString: 
       - title: Sequence
@@ -2470,7 +2470,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'The moments that I should be by her side when she was sick and weak. '
+        value: I wish I could have told her how much I loved her.
         type: 0
         typeString: 
       - title: Sequence
@@ -2525,8 +2525,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " I\u2019m sure that your mother will not be happy if she sees you
-          being like this\u2026 "
+        value: I know your mother loved you very much.
         type: 0
         typeString: 
       - title: Sequence
@@ -2554,7 +2553,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 190
+        x: 191.21951
         y: 1188
         width: 160
         height: 30
@@ -2581,7 +2580,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'She would want you to keep going, to see you achieving you dreams. '
+        value: ' She would want you to keep going and achieve your dreams. She would
+          want you to be happy. '
         type: 0
         typeString: 
       - title: Sequence
@@ -2599,7 +2599,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 30
         destinationConversationID: 3
-        destinationDialogueID: 31
+        destinationDialogueID: 92
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2636,8 +2636,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "She would want to know that you will keep on going and I know she\u2019ll
-          support you with that. "
+        value: No, you didn't. You're still here, and you're still trying. That's
+          all she ever wanted for you.
         type: 0
         typeString: 
       - title: Sequence
@@ -2665,8 +2665,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 190
-        y: 1296
+        x: 192.439
+        y: 1366.732
         width: 160
         height: 30
     - id: 32
@@ -2721,8 +2721,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 190
-        y: 1350
+        x: 192.439
+        y: 1420.732
         width: 160
         height: 30
     - id: 33
@@ -2803,7 +2803,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Let\u2019s go to the cemetery."
+        value: "Let\u2019s go visit my mother."
         type: 0
         typeString: 
       - title: Sequence
@@ -2831,8 +2831,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 190
-        y: 1404
+        x: 192.439
+        y: 1474.732
         width: 160
         height: 30
     - id: 35
@@ -2913,8 +2913,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "My mom dedicated all her life to be a good mom but even the day she
-          died there wasn\u2019t even a good son that was there for her."
+        value: My mother has dedicated all her days to be a good mother, yet even
+          upon the day of her death, there was not a good son to stand by her side.
         type: 0
         typeString: 
       - title: Sequence
@@ -3085,8 +3085,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I was so busy with my own life. I wasn\u2019t able to give just a
-          little bit of appreciation for her hard work."
+        value: I could not give her a morsel of thanks for her labor.
         type: 0
         typeString: 
       - title: Sequence
@@ -3141,7 +3140,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "It wasn\u2019t that big of a deal. "
+        value: It wasn't all that significant.
         type: 0
         typeString: 
       - title: Sequence
@@ -3170,7 +3169,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 852.33234
-        y: 1654.6956
+        y: 1655.8319
         width: 160
         height: 30
     - id: 45
@@ -3196,7 +3195,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Everyone loses someone along the way\u2026 "
+        value: ' Everyone experiences loss at some point,'
         type: 0
         typeString: 
       - title: Sequence
@@ -3224,7 +3223,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 852.33234
+        x: 851.196
         y: 1708.6956
         width: 160
         height: 30
@@ -3251,7 +3250,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You must have to accept it and move on.
+        value: you must learn to accept it and move on
         type: 0
         typeString: 
       - title: Sequence
@@ -3306,7 +3305,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "You make me feel invalidated\u2026 "
+        value: You make me feel like I'm not important...
         type: 0
         typeString: 
       - title: Sequence
@@ -3361,8 +3360,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I thought you\u2019re here to help me but because of what you\u2019ve
-          said, you made it feel like I don\u2019t matter."
+        value: ' I thought you were here to help me, but your words made it seem
+          like I don''t matter.'
         type: 0
         typeString: 
       - title: Sequence
@@ -3417,8 +3416,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I know that the person that actually makes me feel like I matter
-          is gone, yet now you\u2019re saying to me that it wasn\u2019t a big deal. "
+        value: 'Even though you''re telling me now that it wasn''t a big deal, I
+          know that the person who actually makes me feel like I matter is no longer
+          with me. '
         type: 0
         typeString: 
       - title: Sequence
@@ -3473,8 +3473,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I don\u2019t even know that she was truly sick at that moment that
-          I disregarded her messages."
+        value: "I did not know she was truly ill,\r when I ignored her messages.\r\n"
         type: 0
         typeString: 
       - title: Sequence
@@ -3529,8 +3528,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Sometimes, I think of being with her, because in this world\u2026
-          I am all alone."
+        value: "Sometimes, I think of being with her,\r for in this world... I am
+          alone.\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -3585,7 +3584,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I\u2019m very sorry for your loss but it is not entirely your fault. "
+        value: Although it was not your fault, I am deeply sorry for your loss.
         type: 0
         typeString: 
       - title: Sequence
@@ -3640,8 +3639,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I still couldn\u2019t believe it even after a few months of her being
-          gone. Now, everything just sinks in."
+        value: 'I still cannot believe it, even after a few months of her being gone.
+          Now, everything just sinks '
         type: 0
         typeString: 
       - title: Sequence
@@ -3696,9 +3695,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I hope that you won\u2019t be too hard on yourself. As we grow up,
-          we tend to make not just one but lots of mistakes, it helps us to shape
-          ourselves."
+        value: I hope you won't judge yourself too harshly. We tend to make a lot
+          of mistakes as we get older, which helps us shape who we are.
         type: 0
         typeString: 
       - title: Sequence
@@ -3753,8 +3751,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Your mother is for sure rooting for your growth, wants you to be
-          okay and be happy. '
+        value: 'Your mother absolutely supports your development and wishes you well
+          and happiness. '
         type: 0
         typeString: 
       - title: Sequence
@@ -3864,9 +3862,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I can no longer make her feel how much I love her, I can no longer
-          give anything back to her, I can\u2019t do anything now that she\u2019s
-          gone."
+        value: I can no longer make her feel the depth of my love, I can no longer
+          give her anything in return, I can do nothing now that she's gone.
         type: 0
         typeString: 
       - title: Sequence
@@ -3921,8 +3918,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Even though she left you so early in life, there are things that
-          she left you, like memories with her and the garden she cherishes. '
+        value: Even though she left you so young, she left you things, like the memories
+          you shared with her and the garden she loves.
         type: 0
         typeString: 
       - title: Sequence
@@ -3977,8 +3974,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'You can give back to her by cherishing what she loves to do like
-          maintaining her garden or by always remembering her in your heart. '
+        value: You can repay her by cherishing what she enjoys doing, like tending
+          to her garden, or by always keeping her in your thoughts and heart.
         type: 0
         typeString: 
       - title: Sequence
@@ -4033,8 +4030,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "She didn\u2019t entirely leave. You still have her garden which will
-          remind you of what she was, who she was, and how you mean to her. "
+        value: She did not completely depart. You still have her garden, which will
+          help you remember who she was, what she meant to you, and what you meant
+          to her.
         type: 0
         typeString: 
       - title: Sequence
@@ -4256,9 +4254,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "There\u2019ll be a lot of questions that will be unanswered, you
-          have lots of time to figure things out to let yourself heal. You can take
-          one step at a time to be better."
+        value: There will be a lot of unanswered questions, and you have a lot of
+          time to figure things out so that you can let yourself heal. You can approach
+          slowly and carefully to be better.
         type: 0
         typeString: 
       - title: Sequence
@@ -4313,7 +4311,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "There\u2019s still one last thing I must have before I visit my mom."
+        value: I have one last thing to do before I visit my mother.
         type: 0
         typeString: 
       - title: Sequence
@@ -4342,7 +4340,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 465.59204
-        y: 2554.8242
+        y: 2553.8242
         width: 160
         height: 30
     - id: 66
@@ -4423,8 +4421,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Can you help me find a candle? Since it's always dark in here, I
-          don\u2019t have any spare candle in the house."
+        value: "Can you help me find a candle? Since there\u2019s power outage last
+          night\u2026 I don\u2019t have any spare candle in the house."
         type: 0
         typeString: 
       - title: Sequence
@@ -4531,8 +4529,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I would like to say thank you for all your efforts, I hope you will
-          enjoy your visit to our town.
+        value: I want to say thank you for every one of your endeavors
         type: 0
         typeString: 
       - title: Sequence
@@ -4587,8 +4584,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I enjoyed getting to know you, I hope you\u2019ll be okay along the
-          way\u2026 I am always rooting for your healing, Exion!"
+        value: I hope you will enjoy your visit to our town.
         type: 0
         typeString: 
       - title: Sequence
@@ -4643,7 +4639,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: See you around!
+        value: "I enjoy getting to know you, I hope you\u2019ll be okay along the
+          way\u2026 I am always rooting for your healing, Exion! See you around!"
         type: 0
         typeString: 
       - title: Sequence
@@ -4696,7 +4693,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'Are you sure you want to make this choice? '
+        value: Are thou certain of this choice? Thy errand is to raise Exion's spirits.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -4751,7 +4748,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Your mission is to lift Exion to make him feel better. '
+        value: Thy errand is to raise Exion's spirits.
         type: 0
         typeString: 
       - title: Sequence
@@ -4922,8 +4919,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'A flower can mean a lot of things, but this simple gesture can give
-          a positive impact to the recipient.  '
+        value: Flower, a gift of nature, a symbol of love, a sign of peace, a token
+          of friendship. A flower can mean many things, but this simple gesture can
+          have a positive impact on the recipient.
         type: 0
         typeString: 
       - title: Sequence
@@ -4951,8 +4949,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 152.05984
-        y: 748.8945
+        x: 55.857094
+        y: 743.8312
         width: 160
         height: 30
     - id: 77
@@ -4978,9 +4976,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'It helps to make them feel loved and supported, a flower can also
-          symbolize a perfect solution when it is hard to communicate or find the
-          right words to say.  '
+        value: Flowers are a reminder of the beauty of nature. They are a symbol
+          of hope and new beginnings. They are a gift that can be given to anyone,
+          regardless of their social status. A flower is a simple gesture, but it
+          can have a profound impact on the recipient.
         type: 0
         typeString: 
       - title: Sequence
@@ -4994,7 +4993,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 77
+        destinationConversationID: 3
+        destinationDialogueID: 91
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5002,8 +5007,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 151.70206
-        y: 796.97864
+        x: 55.499306
+        y: 791.91534
         width: 160
         height: 30
     - id: 78
@@ -5194,7 +5199,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Let's go visit my Mom.
+        value: Let's go visit my Mother.
         type: 0
         typeString: 
       - title: Sequence
@@ -5302,7 +5307,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Oh.. I don't know if I can..
+        value: "Oh\u2026 I don\u2019t know if I should."
         type: 0
         typeString: 
       - title: Sequence
@@ -5522,8 +5527,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'I know how complicated it is to go on every single day and know how
-          difficult it is to cope or be happy. '
+        value: ' I am aware of how challenging it is to carry on every day and how
+          difficult it is to cope with or be content. '
         type: 0
         typeString: 
       - title: Sequence
@@ -5578,7 +5583,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Know that I am here, I am here with you in this tough time.
+        value: Keep in mind that I am with you during this trying time.
         type: 0
         typeString: 
       - title: Sequence
@@ -5607,7 +5612,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 467.5517
-        y: 1800.3214
+        y: 1801.75
         width: 160
         height: 30
     - id: 89
@@ -5633,8 +5638,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "She doesn\u2019t want you to blame yourself for what has happened
-          to her because if she can do anything, she'll be here with you. "
+        value: She doesn't want you to feel bad about what happened to her because
+          if she could do anything, she will be here for you.
         type: 0
         typeString: 
       - title: Sequence
@@ -5689,7 +5694,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: It is to me because the person that is gone is my mom!
+        value: It means a lot to me because my mom is gone!
         type: 0
         typeString: 
       - title: Sequence
@@ -5721,9 +5726,115 @@ MonoBehaviour:
         y: 1978.1251
         width: 160
         height: 30
+    - id: 91
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: When words fail, a flower can speak volumes. It can say "I love you"
+          without saying a word. It can say "I'm sorry" without making excuses. It
+          can say "I'm here for you" without asking for anything in return.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 55.499306
+        y: 841.91534
+        width: 160
+        height: 30
+    - id: 92
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I failed to be her son.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 92
+        destinationConversationID: 3
+        destinationDialogueID: 31
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 190
+        y: 1298.0975
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 608.9721, y: 2238.2593}
-    canvasZoom: 1.1499982
+    canvasScrollPosition: {x: 455.89816, y: 1793.4473}
+    canvasZoom: 0.78999805
   - id: 4
     fields:
     - title: Title
@@ -5848,7 +5959,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: The weather has been always like this since then...
+        value: 'The weather has been thus since then, '
         type: 0
         typeString: 
       - title: Sequence
@@ -5903,7 +6014,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '...but before we explore the town, may I know your name? '
+        value: but before we explore the town, may thou could tell me thy name?
         type: 0
         typeString: 
       - title: Sequence
@@ -5958,7 +6069,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Eaton.
+        value: My name is Eaton.
         type: 0
         typeString: 
       - title: Sequence
@@ -6013,7 +6124,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Nice to finally meet you, Eaton. Let\u2019s go explore Popple. "
+        value: '''Tis a pleasure to finally meet thee, Eaton. Let us go forth and
+          explore Popple.'
         type: 0
         typeString: 
       - title: Sequence
@@ -6041,7 +6153,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 353.63635
+        x: 357.2949
         y: 257.27274
         width: 160
         height: 30
@@ -6068,7 +6180,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Do you see the coins on the map? '
+        value: 'Can thou see the coins upon the map? '
         type: 0
         typeString: 
       - title: Sequence
@@ -6103,7 +6215,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 353.63635
-        y: 305.27274
+        y: 302.8337
         width: 160
         height: 30
     - id: 24
@@ -6129,7 +6241,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Could you please gather it and hand it to me? '
+        value: Can thee gather them up and hand them to me?
         type: 0
         typeString: 
       - title: Sequence
@@ -6157,7 +6269,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 352.41693
+        x: 351.19742
         y: 374.76892
         width: 160
         height: 30
@@ -6242,7 +6354,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Your help is very much appreciated!
+        value: I am most grateful for thy assistance!
         type: 0
         typeString: 
       - title: Sequence
@@ -6264,8 +6376,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 352.38644
-        y: 484.86374
+        x: 353.60596
+        y: 483.64426
         width: 160
         height: 30
     - id: 29
@@ -6291,7 +6403,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Did you find the coins?
+        value: Did thou find the coins?
         type: 0
         typeString: 
       - title: Sequence
@@ -6325,8 +6437,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 615.68884
-        y: 299.7187
+        x: 613.2498
+        y: 304.59674
         width: 160
         height: 30
     - id: 33
@@ -6352,7 +6464,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: While exploring inside Popple, you will meet a few people,
+        value: 'Whilst exploring within Popple, thou shall meet a few folk, '
         type: 0
         typeString: 
       - title: Sequence
@@ -6407,8 +6519,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' but some call them dark entities and they are feared, but I assure
-          you that they are not to be afraid of. '
+        value: 'but some call them dark entities and they are feared, but I assure
+          thee that they are not to be feared. '
         type: 0
         typeString: 
       - title: Sequence
@@ -6463,7 +6575,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'They might be scary at first, but you must learn how to tame the
+        value: 'They might be scary at first, but thou must learn how to tame the
           darkness within them. '
         type: 0
         typeString: 
@@ -6627,7 +6739,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thank you!
+        value: I am most grateful for thy assistance!
         type: 0
         typeString: 
       - title: Sequence
@@ -6656,7 +6768,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 611.5887
-        y: 429.01547
+        y: 427.796
         width: 160
         height: 30
     - id: 40
@@ -6682,7 +6794,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Try to help them. It might help take the darkness away from Popple. '
+        value: Try to help them. It might help take the darkness away from Popple.
         type: 0
         typeString: 
       - title: Sequence
@@ -6725,7 +6837,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 139.71979, y: 0}
+    canvasScrollPosition: {x: 182.93204, y: 292.13544}
     canvasZoom: 0.81999964
   - id: 5
     fields:
@@ -8763,8 +8875,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Teddy bears can be used to give warm hugs that lifts people up\u2026
-          especially when they're in the edge of breaking down. "
+        value: 'A teddy bear can be used to give a warm embrace, lifting the spirits
+          of those who are on the brink of despair. '
         type: 0
         typeString: 
       - title: Sequence
@@ -9212,7 +9324,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: We should help her feel better, boost her happiness and give her comfort.
+        value: We should help those in need, and surely, this will bring happiness
+          and comfort.
         type: 0
         typeString: 
       - title: Sequence
@@ -9240,13 +9353,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 455.71432
+        x: 456.6072
         y: 1939.8701
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 166.9958, y: 1627.1373}
-    canvasZoom: 1.1199994
+    canvasScrollPosition: {x: 171.80267, y: 339.2907}
+    canvasZoom: 0.96999955
   - id: 6
     fields:
     - title: Title

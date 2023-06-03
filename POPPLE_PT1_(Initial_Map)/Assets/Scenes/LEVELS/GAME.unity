@@ -390,6 +390,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6216121705774514743, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 2083182123}
     - target: {fileID: 6435386178104691578, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
       propertyPath: m_Intensity
       value: 1
@@ -977,9 +981,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6435386179878090133, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
-    - {fileID: 6216121705774514743, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
 --- !u!1 &302400443 stripped
 GameObject:
@@ -2052,3 +2054,8 @@ MonoBehaviour:
   m_mode: 0
   m_destroyMode: 1
   m_destroyedVersionPrefab: {fileID: 0}
+--- !u!61 &2083182123 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 6435386179878090119, guid: 26b29183bfe2bc44e8bdf31c27c22798, type: 3}
+  m_PrefabInstance: {fileID: 280375735}
+  m_PrefabAsset: {fileID: 0}
