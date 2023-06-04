@@ -1731,7 +1731,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I would prefer to pluck some flowers for my own mother.
+        value: I would prefer to pluck some flowers for my own mother. It's been
+          an agonizing five months since she departed from this world...
         type: 0
         typeString: 
       - title: Sequence
@@ -1786,10 +1787,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: It's been an agonizing five months since she departed from this world,
-          and the pain of her absence makes it incredibly difficult for me to fathom
-          the reality that I will never again have the chance to see her radiant
-          smile or hear her gentle voice.
+        value: ...and the pain of her absence makes it incredibly difficult for me
+          to fathom the reality that I will never again have the chance to see her
+          radiant smile or hear her gentle voice.
         type: 0
         typeString: 
       - title: Sequence
@@ -1998,7 +1998,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 359.25314
+        x: 357.93735
         y: 795.1064
         width: 160
         height: 30
@@ -2446,7 +2446,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 190
-        y: 1080
+        y: 1078.8236
         width: 160
         height: 30
     - id: 28
@@ -2528,8 +2528,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: 'You know what? I know your mom loved you so, so much. And you know
-          what else? She would totally want you to keep pushing forward and chase
-          after your dreams. '
+          what else? '
         type: 0
         typeString: 
       - title: Sequence
@@ -2547,7 +2546,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 29
         destinationConversationID: 3
-        destinationDialogueID: 30
+        destinationDialogueID: 95
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2557,7 +2556,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 191.21951
+        x: 190.04303
         y: 1188
         width: 160
         height: 30
@@ -2613,8 +2612,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 190
-        y: 1242
+        x: 178.15787
+        y: 1301.2107
         width: 160
         height: 30
     - id: 31
@@ -2669,8 +2668,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 192.439
-        y: 1366.732
+        x: 180.59686
+        y: 1425.9427
         width: 160
         height: 30
     - id: 32
@@ -2725,8 +2724,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 192.439
-        y: 1420.732
+        x: 180.59686
+        y: 1479.9427
         width: 160
         height: 30
     - id: 33
@@ -2835,8 +2834,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 192.439
-        y: 1474.732
+        x: 180.59686
+        y: 1533.9427
         width: 160
         height: 30
     - id: 35
@@ -2997,7 +2996,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 37
         destinationConversationID: 3
-        destinationDialogueID: 43
+        destinationDialogueID: 96
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3064,61 +3063,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 853.4349
         y: 1450.4873
-        width: 160
-        height: 30
-    - id: 43
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: I could not give her a morsel of thanks for her labor.
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 43
-        destinationConversationID: 3
-        destinationDialogueID: 50
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 467.5517
-        y: 1537.4285
         width: 160
         height: 30
     - id: 44
@@ -3454,117 +3398,6 @@ MonoBehaviour:
         y: 1924.6957
         width: 160
         height: 30
-    - id: 50
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "I did not know she was truly ill,\r when I ignored her messages.\r\n"
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 50
-        destinationConversationID: 3
-        destinationDialogueID: 51
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 467.5517
-        y: 1591.4285
-        width: 160
-        height: 30
-    - id: 51
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "Sometimes, I think of being with her,\r for in this world... I am
-          alone.\r"
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 51
-        destinationConversationID: 3
-        destinationDialogueID: 52
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 467.5517
-        y: 1645.4285
-        width: 160
-        height: 30
     - id: 52
       fields:
       - title: Title
@@ -3616,7 +3449,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.5517
+        x: 468.92157
         y: 1699.4285
         width: 160
         height: 30
@@ -4576,11 +4409,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -4631,11 +4464,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -4953,8 +4786,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 55.857094
-        y: 743.8312
+        x: 33.488625
+        y: 734.62067
         width: 160
         height: 30
     - id: 77
@@ -4981,9 +4814,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: Flowers are a reminder of the beauty of nature. They are a symbol
-          of hope and new beginnings. They are a gift that can be given to anyone,
-          regardless of their social status. A flower is a simple gesture, but it
-          can have a profound impact on the recipient.
+          of hope and new beginnings.
         type: 0
         typeString: 
       - title: Sequence
@@ -5001,7 +4832,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 77
         destinationConversationID: 3
-        destinationDialogueID: 91
+        destinationDialogueID: 94
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5011,8 +4842,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 55.499306
-        y: 791.91534
+        x: 34.446632
+        y: 784.02057
         width: 160
         height: 30
     - id: 78
@@ -5384,7 +5215,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 84
         destinationConversationID: 3
-        destinationDialogueID: 43
+        destinationDialogueID: 96
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5777,8 +5608,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 55.499306
-        y: 841.91534
+        x: 26.551857
+        y: 885.3365
         width: 160
         height: 30
     - id: 92
@@ -5832,8 +5663,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 190
-        y: 1298.0975
+        x: 178.15787
+        y: 1357.3082
         width: 160
         height: 30
     - id: 93
@@ -5892,9 +5723,288 @@ MonoBehaviour:
         y: 2279.7524
         width: 160
         height: 30
+    - id: 94
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ' They are a gift that can be given to anyone, regardless of their
+          social status. A flower is a simple gesture, but it can have a profound
+          impact on the recipient.'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 94
+        destinationConversationID: 3
+        destinationDialogueID: 91
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 31.815033
+        y: 839.2838
+        width: 160
+        height: 30
+    - id: 95
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'She would totally want you to keep pushing forward and chase after
+          your dreams. '
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 95
+        destinationConversationID: 3
+        destinationDialogueID: 30
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 183.46408
+        y: 1243.2632
+        width: 160
+        height: 30
+    - id: 96
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I could not give her a morsel of thanks for her labor.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 96
+        destinationConversationID: 3
+        destinationDialogueID: 97
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 476.59277
+        y: 1534.1538
+        width: 160
+        height: 30
+    - id: 97
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "I did not know she was truly ill,\r\nwhen I ignored her messages.\r"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 97
+        destinationConversationID: 3
+        destinationDialogueID: 98
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 476.59277
+        y: 1584.1538
+        width: 160
+        height: 30
+    - id: 98
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Sometimes, I think of being with her,\r \nfor in this world... I
+          am alone.\r"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 98
+        destinationConversationID: 3
+        destinationDialogueID: 52
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 481.0704
+        y: 1634.1538
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 186.80891, y: 2108.9114}
-    canvasZoom: 0.90999794
+    canvasScrollPosition: {x: 155.22437, y: 2076.5688}
+    canvasZoom: 0.66999817
   - id: 4
     fields:
     - title: Title
@@ -9539,7 +9649,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9630,7 +9740,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 21
+        x: 23
         y: 154
         width: 160
         height: 30

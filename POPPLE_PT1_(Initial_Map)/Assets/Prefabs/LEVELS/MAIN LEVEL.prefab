@@ -63380,8 +63380,8 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Intro
-  conversationConversant: {fileID: 3730134587939953218}
-  conversationActor: {fileID: 0}
+  conversationConversant: {fileID: 1384063232585567054}
+  conversationActor: {fileID: 3730134587939953218}
   startConversationEntryID: -1
   startConversationEntryTitle: 
   exclusive: 0
@@ -63456,7 +63456,7 @@ MonoBehaviour:
     customMenuPanel: {fileID: 0}
     customMenuPanelOffset: {x: 0, y: 0, z: 0}
     useMenuPanelFor: 0
-    portraitAnimatorController: {fileID: 0}
+    portraitAnimatorController: {fileID: 9100000, guid: b26b75d5ac68e6e4e98789dd01f72083, type: 2}
     setSubtitleColor: 0
     applyColorToPrependedName: 0
     prependActorNameSeparator: ': '
@@ -63517,8 +63517,8 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Ghost Quest
-  conversationConversant: {fileID: 3730134587939953218}
-  conversationActor: {fileID: 0}
+  conversationConversant: {fileID: 1384063232585567054}
+  conversationActor: {fileID: 3730134587939953218}
   startConversationEntryID: 29
   startConversationEntryTitle: 
   exclusive: 0
@@ -63826,7 +63826,7 @@ MonoBehaviour:
     customMenuPanel: {fileID: 0}
     customMenuPanelOffset: {x: 0, y: 0, z: 0}
     useMenuPanelFor: 0
-    portraitAnimatorController: {fileID: 0}
+    portraitAnimatorController: {fileID: 9100000, guid: 2abac2bd3ecd51447bf5b26a32b08a68, type: 2}
     setSubtitleColor: 0
     applyColorToPrependedName: 0
     prependActorNameSeparator: ': '
@@ -63882,8 +63882,8 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Arriety
-  conversationConversant: {fileID: 3730134587939953218}
-  conversationActor: {fileID: 0}
+  conversationConversant: {fileID: 6366675263690016930}
+  conversationActor: {fileID: 3730134587939953218}
   startConversationEntryID: -1
   startConversationEntryTitle: 
   exclusive: 0
@@ -63957,8 +63957,8 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Arriety
-  conversationConversant: {fileID: 3730134587939953218}
-  conversationActor: {fileID: 0}
+  conversationConversant: {fileID: 6366675263690016930}
+  conversationActor: {fileID: 3730134587939953218}
   startConversationEntryID: 38
   startConversationEntryTitle: 
   exclusive: 0
@@ -64068,8 +64068,8 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Arriety
-  conversationConversant: {fileID: 3730134587939953218}
-  conversationActor: {fileID: 0}
+  conversationConversant: {fileID: 6366675263690016930}
+  conversationActor: {fileID: 3730134587939953218}
   startConversationEntryID: 15
   startConversationEntryTitle: 
   exclusive: 0
@@ -66118,7 +66118,7 @@ MonoBehaviour:
   cacheBarkLines: 0
   conversation: Exion
   conversationConversant: {fileID: 7601742028011575564}
-  conversationActor: {fileID: 0}
+  conversationActor: {fileID: 3730134587939953218}
   startConversationEntryID: 78
   startConversationEntryTitle: 
   exclusive: 0
@@ -66212,8 +66212,8 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Exion
-  conversationConversant: {fileID: 3730134587939953218}
-  conversationActor: {fileID: 0}
+  conversationConversant: {fileID: 7601742028011575564}
+  conversationActor: {fileID: 3730134587939953218}
   startConversationEntryID: -1
   startConversationEntryTitle: 
   exclusive: 0
@@ -66288,7 +66288,7 @@ MonoBehaviour:
     customMenuPanel: {fileID: 0}
     customMenuPanelOffset: {x: 0, y: 0, z: 0}
     useMenuPanelFor: 0
-    portraitAnimatorController: {fileID: 0}
+    portraitAnimatorController: {fileID: 9100000, guid: 17bb8d8e0d56a0844a05dd98cd3df5b4, type: 2}
     setSubtitleColor: 0
     applyColorToPrependedName: 0
     prependActorNameSeparator: ': '
@@ -66354,8 +66354,8 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Exion
-  conversationConversant: {fileID: 3730134587939953218}
-  conversationActor: {fileID: 0}
+  conversationConversant: {fileID: 7601742028011575564}
+  conversationActor: {fileID: 3730134587939953218}
   startConversationEntryID: 19
   startConversationEntryTitle: 
   exclusive: 0
@@ -67196,6 +67196,39 @@ MonoBehaviour:
   m_target: {fileID: 0}
   m_usePlayerSpawnpoint: 0
   m_multiscene: 0
+--- !u!114 &6898162060972307459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869794193405023291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64578247383140469c45370654a984a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actor: Eaton
+  persistentDataName: 
+  portrait: {fileID: 0}
+  spritePortrait: {fileID: 21300000, guid: a1bd4a4a4a51ab24490e54d31aba5c01, type: 3}
+  barkUISettings:
+    barkUI: {fileID: 0}
+    barkUIOffset: {x: 0, y: 2, z: 0}
+  standardDialogueUISettings:
+    subtitlePanelNumber: 0
+    customSubtitlePanel: {fileID: 0}
+    customSubtitlePanelOffset: {x: 0, y: 0, z: 0}
+    menuPanelNumber: 0
+    customMenuPanel: {fileID: 0}
+    customMenuPanelOffset: {x: 0, y: 0, z: 0}
+    useMenuPanelFor: 0
+    portraitAnimatorController: {fileID: 9100000, guid: e655bf513e5f8c9469bf1912819dca6a, type: 2}
+    setSubtitleColor: 0
+    applyColorToPrependedName: 0
+    prependActorNameSeparator: ': '
+    prependActorNameFormat: '{0}{1}'
+    subtitleColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &7808557676133851058
 PrefabInstance:
   m_ObjectHideFlags: 0
