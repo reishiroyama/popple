@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a35bee8143a46e942923046bd176b57e
+guid: 3be3f10648ec4ab4ba1256d2b547b6dc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,70 +117,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ghost blink-Sheet_0
+      name: Sprite-0001_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 192
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed7cdaf5d0a0b3459dc08e3899c3954
-      internalID: 1240924169
+      spriteID: 8979034c2a83b1246947dc67a1acac86
+      internalID: 1545108462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_1
+      name: Sprite-0001_1
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 192
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7501ce1b9fc223f479323b139fe17d00
-      internalID: -118666976
+      spriteID: 08f44a1678fd4ee4ea6770ecd6f9db22
+      internalID: 1612014620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_2
+      name: Sprite-0001_2
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 192
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc10c3b16f101774181634f156ce5a40
-      internalID: 2033058831
+      spriteID: 43fe0514fa848f24fbe70da3a62f4d6b
+      internalID: -1886694246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_3
+      name: Sprite-0001_3
       rect:
         serializedVersion: 2
         x: 192
@@ -188,83 +188,83 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c92f6432747e51b4a95571ab77a65eb5
-      internalID: -1555918138
+      spriteID: e1957596520a73247813f0d8d8c12c0a
+      internalID: -1914166835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_4
+      name: Sprite-0001_4
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 128
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67788d8479d1c834893683047d906b0f
-      internalID: -1922844226
+      spriteID: c8bc001fe6c1d0040a76f776e6075902
+      internalID: 1630358284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_5
+      name: Sprite-0001_5
       rect:
         serializedVersion: 2
-        x: 66
-        y: 127
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e3a97e324d3ee34e904e9a4910d8910
-      internalID: -1585528115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ghost blink-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 130
+        x: 64
         y: 128
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7a321b92b9f23f46b637b63d2ac72ed
-      internalID: -2045446253
+      spriteID: 65c79f27055ab544491d137e00a339f3
+      internalID: -703265094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_7
+      name: Sprite-0001_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58607607d6452646a59ee4a7d707cef
+      internalID: 339434216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0001_7
       rect:
         serializedVersion: 2
         x: 192
@@ -272,161 +272,161 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3524e272aebaeea45aac392cffa7005d
-      internalID: -2033338861
+      spriteID: 4f3a934786de5114fbca7aa3d03ce879
+      internalID: -1569328310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_8
+      name: Sprite-0001_8
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92bc039b73f53fb4aa3ac33117a44d9c
-      internalID: -1270213599
+      spriteID: f7556c5c00ded3b478b4a9ec1c3fe13f
+      internalID: -1005131567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_9
+      name: Sprite-0001_9
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58dd515a46994f1468bfd8de722ea62a
-      internalID: 897529884
+      spriteID: dcc08010c7db7a54aa1d37f42a0f844a
+      internalID: 690926429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_10
+      name: Sprite-0001_10
       rect:
         serializedVersion: 2
-        x: 131
+        x: 128
         y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 144c811d12b7c7b409a168e67f83294a
-      internalID: -541768309
+      spriteID: dc2eee01ec6fa19449b6059b96d60ef1
+      internalID: 1987117514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_11
+      name: Sprite-0001_11
       rect:
         serializedVersion: 2
         x: 192
-        y: 63
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de871474197c7f8468aa7729e13db0b6
-      internalID: 1281686200
+      spriteID: 96b78804b77125a4f9c42ed73f52182f
+      internalID: -1304647226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_12
+      name: Sprite-0001_12
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eed43bd156df45f4f9b6b5e89ba470c4
-      internalID: -1102082415
+      spriteID: e8339431a7f23df4cb6ca421d27468e8
+      internalID: 1671694541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_13
+      name: Sprite-0001_13
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe2ab2555538964295f71badd8c9032
-      internalID: -1451060399
+      spriteID: 22c84ec2940315a4f8dab55224a88422
+      internalID: -1779829958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost blink-Sheet_14
+      name: Sprite-0001_14
       rect:
         serializedVersion: 2
-        x: 131
+        x: 128
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58b0d05a3cae5e34cb45e6a57698dab8
-      internalID: -1009519735
+      spriteID: 4c17d1c2a7298e343a308b2b2cce4a3f
+      internalID: -1771317037
       vertices: []
       indices: 
       edges: []
@@ -442,21 +442,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ghost blink-Sheet_0: 1240924169
-      ghost blink-Sheet_1: -118666976
-      ghost blink-Sheet_10: -541768309
-      ghost blink-Sheet_11: 1281686200
-      ghost blink-Sheet_12: -1102082415
-      ghost blink-Sheet_13: -1451060399
-      ghost blink-Sheet_14: -1009519735
-      ghost blink-Sheet_2: 2033058831
-      ghost blink-Sheet_3: -1555918138
-      ghost blink-Sheet_4: -1922844226
-      ghost blink-Sheet_5: -1585528115
-      ghost blink-Sheet_6: -2045446253
-      ghost blink-Sheet_7: -2033338861
-      ghost blink-Sheet_8: -1270213599
-      ghost blink-Sheet_9: 897529884
+      Sprite-0001_0: 1545108462
+      Sprite-0001_1: 1612014620
+      Sprite-0001_10: 1987117514
+      Sprite-0001_11: -1304647226
+      Sprite-0001_12: 1671694541
+      Sprite-0001_13: -1779829958
+      Sprite-0001_14: -1771317037
+      Sprite-0001_2: -1886694246
+      Sprite-0001_3: -1914166835
+      Sprite-0001_4: 1630358284
+      Sprite-0001_5: -703265094
+      Sprite-0001_6: 339434216
+      Sprite-0001_7: -1569328310
+      Sprite-0001_8: -1005131567
+      Sprite-0001_9: 690926429
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
