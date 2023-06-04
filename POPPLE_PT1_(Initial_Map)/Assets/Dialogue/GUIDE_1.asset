@@ -1447,7 +1447,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'but I want to assure you that there is hope. '
+        value: but I want you to know that there is always hope, even when things
+          seem dark. You're stronger than you realize, and you will undoubtedly overcome
+          this.
         type: 0
         typeString: 
       - title: Sequence
@@ -1502,8 +1504,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You will get through this, and you will come out stronger on the other
-          side.
+        value: In the meantime, please know that I am here for you. You can always
+          come to me for support, and I will be there for you.
         type: 0
         typeString: 
       - title: Sequence
@@ -2525,7 +2527,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I know your mother loved you very much.
+        value: 'You know what? I know your mom loved you so, so much. And you know
+          what else? She would totally want you to keep pushing forward and chase
+          after your dreams. '
         type: 0
         typeString: 
       - title: Sequence
@@ -2580,8 +2584,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' She would want you to keep going and achieve your dreams. She would
-          want you to be happy. '
+        value: She'd want to see you smiling and living your best life. So go ahead,
+          my friend, make her proud and find your happiness. You got this!
         type: 0
         typeString: 
       - title: Sequence
@@ -2636,8 +2640,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: No, you didn't. You're still here, and you're still trying. That's
-          all she ever wanted for you.
+        value: Nah, you know what? You're mistaken there. You're still here, and
+          you're still trying. That's all she ever wanted for you.
         type: 0
         typeString: 
       - title: Sequence
@@ -3974,8 +3978,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You can repay her by cherishing what she enjoys doing, like tending
-          to her garden, or by always keeping her in your thoughts and heart.
+        value: 'You know what''s a beautiful way to honor her memory? By truly cherishing
+          the things she loved, like tending to her beloved garden. '
         type: 0
         typeString: 
       - title: Sequence
@@ -3993,7 +3997,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 59
         destinationConversationID: 3
-        destinationDialogueID: 60
+        destinationDialogueID: 93
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4060,8 +4064,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.64288
-        y: 2283.7524
+        x: 464.377
+        y: 2332.4558
         width: 160
         height: 30
     - id: 61
@@ -4115,8 +4119,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.64288
-        y: 2337.7524
+        x: 464.377
+        y: 2386.4558
         width: 160
         height: 30
     - id: 62
@@ -4172,8 +4176,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.59204
-        y: 2392.8242
+        x: 464.32617
+        y: 2441.5276
         width: 160
         height: 30
     - id: 63
@@ -4227,8 +4231,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.59204
-        y: 2446.8242
+        x: 464.32617
+        y: 2495.5276
         width: 160
         height: 30
     - id: 64
@@ -4284,8 +4288,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.59204
-        y: 2500.8242
+        x: 464.32617
+        y: 2549.5276
         width: 160
         height: 30
     - id: 65
@@ -4339,8 +4343,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.59204
-        y: 2553.8242
+        x: 464.32617
+        y: 2602.5276
         width: 160
         height: 30
     - id: 66
@@ -4394,8 +4398,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.59204
-        y: 2608.8242
+        x: 464.32617
+        y: 2657.5276
         width: 160
         height: 30
     - id: 67
@@ -4450,8 +4454,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.59204
-        y: 2662.8242
+        x: 464.32617
+        y: 2711.5276
         width: 160
         height: 30
     - id: 68
@@ -4502,8 +4506,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 465.59204
-        y: 2716.8242
+        x: 464.32617
+        y: 2765.5276
         width: 160
         height: 30
     - id: 69
@@ -5832,9 +5836,65 @@ MonoBehaviour:
         y: 1298.0975
         width: 160
         height: 30
+    - id: 93
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: It's a way to keep her spirit alive. And you know what else? Always
+          holding her dear in your thoughts and in your heart
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 93
+        destinationConversationID: 3
+        destinationDialogueID: 60
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 465.64288
+        y: 2279.7524
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 455.89816, y: 1793.4473}
-    canvasZoom: 0.78999805
+    canvasScrollPosition: {x: 186.80891, y: 2108.9114}
+    canvasZoom: 0.90999794
   - id: 4
     fields:
     - title: Title
@@ -7900,7 +7960,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Sorry\u2026 I didn\u2019t mean to scare you."
+        value: "Oops, my bad! I didn\u2019t mean to scare you."
         type: 0
         typeString: 
       - title: Sequence
@@ -7955,8 +8015,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I just want to give you some ice cream and sweets that I found along
-          the way.
+        value: I actually just wanted to surprise you with a little treat- some delicious
+          ice cream and sweets. Trust me, it's the best thing I could find around
+          here.
         type: 0
         typeString: 
       - title: Sequence
@@ -8011,7 +8072,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: But I read that sweets, especially ice creams, are very comforting.
+        value: Plus, where I'm from, it's considered a pretty effective comfort food.
+          So, no need to be scared, it's just a friendly gesture to bring a smile
+          to your face!
         type: 0
         typeString: 
       - title: Sequence
@@ -9358,8 +9421,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 171.80267, y: 339.2907}
-    canvasZoom: 0.96999955
+    canvasScrollPosition: {x: 166.79738, y: 1059.7584}
+    canvasZoom: 1.0899996
   - id: 6
     fields:
     - title: Title
